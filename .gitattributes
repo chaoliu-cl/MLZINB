@@ -1,1 +1,2 @@
-refit_2026-10-14_multilevel filter=lfs diff=lfs merge=lfs -text
+# Model serializations use native R compression and remain binary Git files.
+refit_2026-10-14_multilevel/**/*.rds binary

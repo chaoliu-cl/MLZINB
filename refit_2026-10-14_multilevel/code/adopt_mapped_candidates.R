@@ -40,6 +40,6 @@ for(id in c("primary_additive","primary_inflation")) {
     attempts=data.table(optimizer="bounded_nlminb_mapped",convergence=m$fit$convergence,pd_hessian=m$sdr$pdHess,
       max_gradient=max(abs(g)),max_newton_step_se=scaled,newton_decrement=newton,logLik=as.numeric(logLik(m)),
       acceptable=ok,criterion="curvature-scaled score; specified interaction mapped to zero"))
-  saveRDS(result,finalpath,compress=FALSE)
+  saveRDS(result,finalpath,compress="xz")
   fwrite(metrics,file.path(out,"logs",paste0(id,"_metrics.csv")))
 }

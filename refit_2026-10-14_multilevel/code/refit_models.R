@@ -296,7 +296,7 @@ fit_job <- function(spec,datasets,out) {
     dir.create(dirname(backup),showWarnings=FALSE)
     if(!file.exists(backup)) file.copy(model_path,backup)
   }
-  saveRDS(result,model_path,compress=FALSE)
+  saveRDS(result,model_path,compress="xz")
   fwrite(metrics,file.path(out,"logs",paste0(spec$id,"_metrics.csv")))
   cat(format(Sys.time()),"DONE",capture.output(print(metrics)),paste(unique(warnings_seen),collapse="\n"),
     "\n",file=logfile,append=TRUE,sep="\n")

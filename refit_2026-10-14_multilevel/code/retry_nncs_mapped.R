@@ -40,4 +40,4 @@ m<-withCallingHandlers(glmmTMB(anchor$spec$cond,ziformula=anchor$spec$zi,
 cat("elapsed",proc.time()[3]-t0,"conv",m$fit$convergence,"pd",m$sdr$pdHess,"AIC",AIC(m),"\n")
 print(summary(m)$coefficients)
 saveRDS(list(model=m,spec=spec,mapped_cond=anchor$spec$cond,mapped_zi=anchor$spec$zi,
-  warnings=warnings_seen,elapsed=proc.time()[3]-t0),file.path(out,paste0("mapped_candidate_",id,".rds")),compress=FALSE)
+  warnings=warnings_seen,elapsed=proc.time()[3]-t0),file.path(out,paste0("mapped_candidate_",id,".rds")),compress="xz")
