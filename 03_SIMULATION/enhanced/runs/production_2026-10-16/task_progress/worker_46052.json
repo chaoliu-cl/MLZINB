@@ -1,9 +1,9 @@
 {
   "pid": 46052,
-  "condition_id": 54,
-  "replication": 16,
-  "model": "inflation",
+  "condition_id": 14,
+  "replication": 32,
+  "model": "NB_count",
   "stage": "fitting",
   "valid": null,
-  "updated": "2026-10-17 00:13:39.515481"
+  "updated": "2026-10-17 09:04:32.454301"
 }

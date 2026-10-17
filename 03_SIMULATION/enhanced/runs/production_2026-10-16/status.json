@@ -2,364 +2,364 @@
   "state": "running",
   "mode": "full",
   "label": "production_2026-10-16",
-  "updated": "2026-10-16 23:34:39.669825",
+  "updated": "2026-10-17 08:51:22.363303",
   "pid": 31112,
   "workers": 2,
   "conditions": 58,
   "replications_per_condition": 500,
   "planned": 29000,
-  "completed_checkpoints": 870,
+  "completed_checkpoints": 1798,
   "pipeline_errors_observed_this_session": 0,
-  "wall_seconds_this_session": 30078.9293,
-  "estimated_seconds_remaining": 972552.0477,
+  "wall_seconds_this_session": 63481.6506,
+  "estimated_seconds_remaining": 960415.9404,
   "last_batch": [
     {
       "condition_id": 1,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 24.15
+      "seconds": 22.16
     },
     {
       "condition_id": 2,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 90.63
+      "seconds": 85.25
     },
     {
       "condition_id": 3,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 24.05
+      "seconds": 21.77
     },
     {
       "condition_id": 4,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 87.56
+      "seconds": 85.77
     },
     {
       "condition_id": 5,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 194.77
+      "seconds": 277.05
     },
     {
       "condition_id": 6,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 1174.04
+      "seconds": 706.98
     },
     {
       "condition_id": 7,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 24.99
+      "seconds": 22.6
     },
     {
       "condition_id": 8,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 100.92
+      "seconds": 87.6
     },
     {
       "condition_id": 9,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 25.04
+      "seconds": 22.91
     },
     {
       "condition_id": 10,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 99.35
+      "seconds": 83.53
     },
     {
       "condition_id": 11,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 26.98
+      "seconds": 22.39
     },
     {
       "condition_id": 12,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 90.43
+      "seconds": 90.22
     },
     {
       "condition_id": 13,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 69.3
+      "seconds": 78.16
     },
     {
       "condition_id": 14,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 95.25
+      "seconds": 80.77
     },
     {
       "condition_id": 15,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 26.92
+      "seconds": 23.36
     },
     {
       "condition_id": 16,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 92.82
+      "seconds": 83.68
     },
     {
       "condition_id": 17,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 23.9
+      "seconds": 22.58
     },
     {
       "condition_id": 18,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 87
+      "seconds": 86.14
     },
     {
       "condition_id": 19,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 26.09
+      "seconds": 21.52
     },
     {
       "condition_id": 20,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 99.28
+      "seconds": 80.77
     },
     {
       "condition_id": 21,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 22.65
+      "seconds": 22.41
     },
     {
       "condition_id": 22,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 92.42
+      "seconds": 89.54
     },
     {
       "condition_id": 23,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 12.96
+      "seconds": 42.22
     },
     {
       "condition_id": 24,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 13.26
+      "seconds": 29.05
     },
     {
       "condition_id": 25,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 47.17
+      "seconds": 38.75
     },
     {
       "condition_id": 26,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 50.28
+      "seconds": 46.58
     },
     {
       "condition_id": 27,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 108.08
+      "seconds": 114.02
     },
     {
       "condition_id": 28,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 22.01
+      "seconds": 52.65
     },
     {
       "condition_id": 29,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 27.36
+      "seconds": 28.51
     },
     {
       "condition_id": 30,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 22.75
+      "seconds": 78.03
     },
     {
       "condition_id": 31,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 29.77
+      "seconds": 29.5
     },
     {
       "condition_id": 32,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 151.31
+      "seconds": 432.6
     },
     {
       "condition_id": 33,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 20.75
+      "seconds": 22.91
     },
     {
       "condition_id": 34,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 31
+      "seconds": 33.81
     },
     {
       "condition_id": 35,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 364.46
+      "seconds": 143.73
     },
     {
       "condition_id": 36,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 73.94
+      "seconds": 57.11
     },
     {
       "condition_id": 37,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 25.05
+      "seconds": 27.72
     },
     {
       "condition_id": 38,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 23.82
+      "seconds": 26.65
     },
     {
       "condition_id": 39,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 23.55
+      "seconds": 86.82
     },
     {
       "condition_id": 40,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 24.61
+      "seconds": 32.22
     },
     {
       "condition_id": 41,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 25.16
+      "seconds": 35.88
     },
     {
       "condition_id": 42,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 23.96
+      "seconds": 33.3
     },
     {
       "condition_id": 43,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 23.75
+      "seconds": 31.13
     },
     {
       "condition_id": 44,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 23.66
+      "seconds": 28.64
     },
     {
       "condition_id": 45,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 48.01
+      "seconds": 35.32
     },
     {
       "condition_id": 46,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 120.84
+      "seconds": 58.63
     },
     {
       "condition_id": 47,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 45.21
+      "seconds": 94.44
     },
     {
       "condition_id": 48,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 67.38
+      "seconds": 30.52
     },
     {
       "condition_id": 49,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 35.58
+      "seconds": 43.19
     },
     {
       "condition_id": 50,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 39.77
+      "seconds": 43.09
     },
     {
       "condition_id": 51,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 22.09
+      "seconds": 24.62
     },
     {
       "condition_id": 52,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 24.1
+      "seconds": 25.36
     },
     {
       "condition_id": 53,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 26.58
+      "seconds": 70.58
     },
     {
       "condition_id": 54,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 25.13
+      "seconds": 27.98
     },
     {
       "condition_id": 55,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 27.24
+      "seconds": 30.47
     },
     {
       "condition_id": 56,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 71.32
+      "seconds": 28.29
     },
     {
       "condition_id": 57,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 25.14
+      "seconds": 25.98
     },
     {
       "condition_id": 58,
-      "replication": 15,
+      "replication": 31,
       "status": "completed",
-      "seconds": 71.68
+      "seconds": 21.6
     }
   ]
 }
