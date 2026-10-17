@@ -1,0 +1,20 @@
+model,optimizer,convergence,pd_hessian,max_gradient,max_newton_step_se,newton_decrement,logLik,acceptable,criterion
+additive_between_joint,BFGS,0,TRUE,0.0189191683697008,0.000592021692198476,0.00111311414574706,-9719.41009866203,TRUE,curvature-scaled score
+all_covariates_decomposed_joint,BFGS,0,TRUE,0.0315817363653563,0.0125548680865464,0.0144343396771767,-9708.61822709995,FALSE,curvature-scaled score
+all_covariates_decomposed_joint,nlminb,0,TRUE,0.00769003847120153,0.00010930603915053,0.000306143634022124,-9708.61812300816,TRUE,curvature-scaled score
+city_random_slope_joint,BFGS,0,TRUE,0.0145704314633588,0.00836888399079159,0.0105863779624488,-9696.91092699608,FALSE,curvature-scaled score
+city_random_slope_joint,nlminb,0,TRUE,0.00837618831374387,0.000322328186948286,0.000665270614741209,-9696.9108713125,TRUE,curvature-scaled score
+fixed_inflation_joint,BFGS,0,TRUE,0.0582790711011112,0.00869728325138094,0.0174258208498022,-9720.38892498411,FALSE,curvature-scaled score
+fixed_inflation_joint,nlminb,0,TRUE,0.012368397410163,0.000237716075880044,0.000499993769441401,-9720.38877332639,TRUE,curvature-scaled score
+metro_dependence_joint,BFGS,0,TRUE,0.0198215034699931,0.00069504771628706,0.00187252196364187,-9714.37602298217,TRUE,curvature-scaled score
+primary_additive,bounded_nlminb_mapped,1,FALSE,136315.637859968,Inf,Inf,,FALSE,curvature-scaled score; specified interaction mapped to zero
+primary_count,nlminb,0,TRUE,0.0184699646180722,0.000219195292587272,0.000617344716824698,-9718.11587270975,TRUE,curvature-scaled score
+primary_inflation,bounded_nlminb_mapped,1,FALSE,2701109476.37757,Inf,Inf,,FALSE,curvature-scaled score; specified interaction mapped to zero
+primary_joint,nlminb,1,FALSE,1423299722.43838,,,,FALSE,initial raw-gradient rule
+primary_joint,BFGS,0,TRUE,0.046835195099586,,,-9717.87568358783,FALSE,initial raw-gradient rule
+primary_joint,BFGS,0,TRUE,0.046835195099586,0.00216953095035159,0.00293803807942308,-9717.87568358783,TRUE,curvature-scaled score
+primary_nb,nlminb,0,TRUE,0.0135501610261624,,,-9752.39956976413,FALSE,initial raw-gradient rule
+primary_nb,BFGS,0,TRUE,0.00748546900722591,,,-9752.39956981709,TRUE,initial raw-gradient rule
+primary_nb,BFGS,0,TRUE,0.00748546900722591,0.000200255830876275,0.00041624225976204,-9752.39956981709,TRUE,curvature-scaled score
+whole_joint,BFGS,0,TRUE,0.220543694051227,0.0262682934520882,0.0442535813422804,-8831.18766233226,FALSE,curvature-scaled score
+whole_joint,nlminb,0,TRUE,0.0191252873199163,0.000227545905752394,0.000632796209268849,-8831.18668635152,TRUE,curvature-scaled score

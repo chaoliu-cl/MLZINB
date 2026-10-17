@@ -1,0 +1,52 @@
+options(stringsAsFactors=FALSE)
+suppressPackageStartupMessages(library(glmmTMB))
+root<-normalizePath('09_MODERATION_DATASET_SEARCH/bikeshare_profile',winslash='/');out<-file.path(root,'outputs')
+b<-readRDS(file.path(out,'full_bundle.rds'));m<-b$models$joint;d<-b$data
+setup<-function(m,robust=FALSE){
+ bc<-fixef(m)$cond;bz<-fixef(m)$zi;p<-length(bc);q<-length(bz)
+ V<-if(robust)as.matrix(read.csv(file.path(out,'full_HAC14_covariance.csv'),header=FALSE)) else m$sdr$cov.fixed
+ stopifnot(length(m$fit$par)==p+q+2)
+ list(bc=bc,bz=bz,p=p,q=q,phi=sigma(m),V=V[seq_len(p+q+1),seq_len(p+q+1)],fc=lme4::nobars(formula(m,component='cond')),fz=lme4::nobars(formula(m,component='zi')))
+}
+ref<-d;w<-1/as.numeric(table(ref$group)[as.character(ref$group)]);w<-w/sum(w)
+standard<-function(s,h,ct){
+ nd<-ref;nd$hr<-h;nd$context<-ct;nd$x_w<-as.numeric(h>=10&&h<=15)-nd$x_b
+ for(k in 1:3){nd[[paste0('sin',k)]]<-sin(2*pi*k*h/24);nd[[paste0('cos',k)]]<-cos(2*pi*k*h/24)}
+ XX<-model.matrix(s$fc,nd);ZZ<-model.matrix(s$fz,nd)
+ if(any(!names(s$bc)%in%colnames(XX)))stop(paste('Missing count columns',paste(setdiff(names(s$bc),colnames(XX)),collapse=','),'hour',h,'context',ct))
+ if(any(!names(s$bz)%in%colnames(ZZ)))stop(paste('Missing inflation columns',paste(setdiff(names(s$bz),colnames(ZZ)),collapse=','),'hour',h,'context',ct))
+ X<-XX[,names(s$bc),drop=FALSE];Z<-ZZ[,names(s$bz),drop=FALSE]
+ mu<-as.vector(exp(X%*%s$bc));pi<-as.vector(plogis(Z%*%s$bz));ph<-s$phi
+ nb0<-exp(-ph*log1p(mu/ph));ey<-(1-pi)*mu;p0<-pi+(1-pi)*nb0
+ wm<-function(a)sum(a*w);wc<-function(A)colSums(A*w);p<-s$p;q<-s$q
+ G<-rbind(mu=c(wc(X*mu),rep(0,q),0),pi=c(rep(0,p),wc(Z*(pi*(1-pi))),0),expected=c(wc(X*ey),wc(Z*(-mu*pi*(1-pi))),0),total_zero=c(wc(X*((1-pi)*nb0*(-ph*mu/(ph+mu)))),wc(Z*(pi*(1-pi)*(1-nb0))),wm((1-pi)*nb0*ph*(-log1p(mu/ph)+mu/(ph+mu)))))
+ value<-c(mu=wm(mu),pi=wm(pi),expected=wm(ey),total_zero=wm(p0));se<-sqrt(pmax(0,rowSums((G%*%s$V)*G)))
+ lo<-value-1.96*se;hi<-value+1.96*se;pos<-names(value)%in%c('mu','expected')
+ lo[pos]<-exp(log(value[pos])-1.96*se[pos]/value[pos]);hi[pos]<-exp(log(value[pos])+1.96*se[pos]/value[pos])
+ pp<-!pos;lo[pp]<-plogis(qlogis(value[pp])-1.96*se[pp]/(value[pp]*(1-value[pp])));hi[pp]<-plogis(qlogis(value[pp])+1.96*se[pp]/(value[pp]*(1-value[pp])))
+ list(table=data.frame(hour=h,context=ct,metric=names(value),value=unname(value),se=se,lower=lo,upper=hi,row.names=NULL),G=G)
+}
+s<-setup(m,TRUE);sa<-setup(b$models$additive)
+predlist<-lapply(0:1,function(ct)lapply(0:23,function(h)standard(s,h,ct)))
+pred<-do.call(rbind,lapply(predlist,function(a)do.call(rbind,lapply(a,`[[`,'table'))))
+write.csv(pred,file.path(out,'component_predictions.csv'),row.names=FALSE)
+add<-do.call(rbind,lapply(0:1,function(ct)do.call(rbind,lapply(0:23,function(h)standard(sa,h,ct)$table))))
+write.csv(add,file.path(out,'additive_predictions.csv'),row.names=FALSE)
+contrasts<-function(s,label){do.call(rbind,lapply(0:23,function(h){a<-standard(s,h,1);z<-standard(s,h,0);G<-a$G-z$G;v<-a$table$value-z$table$value;se<-sqrt(pmax(0,rowSums((G%*%s$V)*G)));data.frame(model=label,hour=h,metric=a$table$metric,contrast=v,se=se,lower=v-1.96*se,upper=v+1.96*se)}))}
+write.csv(rbind(contrasts(s,'joint'),contrasts(sa,'additive')),file.path(out,'workingday_contrasts.csv'),row.names=FALSE)
+windows<-lapply(0:1,function(ct){
+ a<-predlist[[ct+1]];ww<-ifelse(0:23%in%10:15,1/6,-1/18)
+ G<-Reduce(`+`,Map(function(z,w)z$G*w,a,ww));v<-Reduce(`+`,Map(function(z,w)z$table$value*w,a,ww));se<-sqrt(pmax(0,rowSums((G%*%s$V)*G)))
+ list(v=v,G=G,table=data.frame(context=ct,metric=a[[1]]$table$metric,midday_minus_other=v,se=se,lower=v-1.96*se,upper=v+1.96*se))
+})
+write.csv(do.call(rbind,lapply(windows,`[[`,'table')),file.path(out,'midday_contrasts.csv'),row.names=FALSE)
+G<-windows[[2]]$G-windows[[1]]$G;v<-windows[[2]]$v-windows[[1]]$v;se<-sqrt(pmax(0,rowSums((G%*%s$V)*G)))
+write.csv(data.frame(metric=windows[[1]]$table$metric,difference_in_contrasts=v,se=se,lower=v-1.96*se,upper=v+1.96*se),file.path(out,'response_scale_moderation.csv'),row.names=FALSE)
+nd<-ref[unique(round(seq(1,nrow(ref),length.out=300))),];nd$group<-NA
+X<-model.matrix(s$fc,nd)[,names(s$bc),drop=FALSE];Z<-model.matrix(s$fz,nd)[,names(s$bz),drop=FALSE]
+mm<-as.vector(exp(X%*%s$bc));pp<-as.vector(plogis(Z%*%s$bz))
+stopifnot(max(abs(mm-predict(m,newdata=nd,type='conditional',re.form=NA,allow.new.levels=TRUE)))<1e-7,max(abs(pp-predict(m,newdata=nd,type='zprob',re.form=NA,allow.new.levels=TRUE)))<1e-7,max(abs((1-pp)*mm-predict(m,newdata=nd,type='response',re.form=NA,allow.new.levels=TRUE)))<1e-7)
+check<-standard(s,12,0);eps<-1e-5
+for(j in 1:3){sp<-sm<-s;if(j==1){sp$bc['sin1']<-sp$bc['sin1']+eps;sm$bc['sin1']<-sm$bc['sin1']-eps;k<-match('sin1',names(s$bc))};if(j==2){sp$bz['sin1']<-sp$bz['sin1']+eps;sm$bz['sin1']<-sm$bz['sin1']-eps;k<-s$p+match('sin1',names(s$bz))};if(j==3){sp$phi<-sp$phi*exp(eps);sm$phi<-sm$phi*exp(-eps);k<-s$p+s$q+1};ng<-(standard(sp,12,0)$table$value-standard(sm,12,0)$table$value)/(2*eps);stopifnot(max(abs(ng-check$G[,k]))<1e-5)}
+writeLines('PASS: model predictions, mixture identities, zero-random-effect target and analytic gradients checked.',file.path(out,'prediction_verification.txt'))
+print(do.call(rbind,lapply(windows,`[[`,'table')))

@@ -1,0 +1,5 @@
+test,reduced,full,n,LR,df,p,valid_numerics,delta_AIC
+Add count interaction,primary_additive,primary_count,13179,102.360204953744,1,4.62907848304732e-24,TRUE,-100.360204953744
+Add inflation interaction,primary_additive,primary_inflation,13179,33.9464797276014,1,5.66490883855427e-09,TRUE,-31.9464797276014
+Add inflation given count interaction,primary_count,primary_joint,13179,21.6719844743639,1,3.23481248033657e-06,TRUE,-19.6719844743639
+Add count given inflation interaction,primary_inflation,primary_joint,13179,90.0857097005064,1,2.2806302703774e-21,TRUE,-88.0857097005064

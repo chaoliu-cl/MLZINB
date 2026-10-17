@@ -1,0 +1,73 @@
+ Family: nbinom2  ( log )
+Formula:          
+y ~ sin1 + cos1 + sin2 + cos2 + context + factor(mnth) + temp +  
+    I(temp^2) + hum + windspeed + badweather + (1 | group) +  
+    yr + sin3 + cos3 + sin1:context + cos1:context + sin2:context +  
+    cos2:context + context:sin3 + context:cos3
+Zero inflation:     
+~sin1 + cos1 + context + temp + hum + badweather + yr + sin1:context + 
+    cos1:context
+Data: pp[[3]]
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+ 109517.0  109846.5  -54715.5  109431.0     15677 
+
+Random effects:
+
+Conditional model:
+ Groups Name        Variance Std.Dev.
+ group  (Intercept) 0.09824  0.3134  
+Number of obs: 15720, groups:  group, 655
+
+Dispersion parameter for nbinom2 family (): 8.96 
+
+Conditional model:
+                Estimate Std. Error z value Pr(>|z|)    
+(Intercept)     0.635901   0.079774    7.97 1.57e-15 ***
+sin1           -1.130586   0.011071 -102.12  < 2e-16 ***
+cos1           -1.049749   0.009179 -114.36  < 2e-16 ***
+sin2           -0.185349   0.008677  -21.36  < 2e-16 ***
+cos2            0.449236   0.009154   49.08  < 2e-16 ***
+context        -0.722807   0.027790  -26.01  < 2e-16 ***
+factor(mnth)2   0.029591   0.077169    0.38   0.7014    
+factor(mnth)3   0.782193   0.073899   10.58  < 2e-16 ***
+factor(mnth)4   0.878417   0.073690   11.92  < 2e-16 ***
+factor(mnth)5   1.087014   0.077603   14.01  < 2e-16 ***
+factor(mnth)6   1.035613   0.080676   12.84  < 2e-16 ***
+factor(mnth)7   1.099166   0.083816   13.11  < 2e-16 ***
+factor(mnth)8   1.071009   0.082289   13.02  < 2e-16 ***
+factor(mnth)9   0.984917   0.079553   12.38  < 2e-16 ***
+factor(mnth)10  0.943825   0.074262   12.71  < 2e-16 ***
+factor(mnth)11  0.659408   0.071173    9.26  < 2e-16 ***
+factor(mnth)12  0.370152   0.070531    5.25 1.54e-07 ***
+temp            6.743805   0.221379   30.46  < 2e-16 ***
+I(temp^2)      -4.705500   0.185582  -25.36  < 2e-16 ***
+hum            -0.569203   0.043555  -13.07  < 2e-16 ***
+windspeed      -0.077540   0.039498   -1.96   0.0496 *  
+badweather     -0.408073   0.017251  -23.66  < 2e-16 ***
+yr              0.346960   0.025903   13.39  < 2e-16 ***
+sin3            0.218867   0.008473   25.83  < 2e-16 ***
+cos3            0.142816   0.008588   16.63  < 2e-16 ***
+sin1:context    0.104126   0.012631    8.24  < 2e-16 ***
+cos1:context    0.070714   0.011297    6.26 3.87e-10 ***
+sin2:context   -0.412809   0.011861  -34.80  < 2e-16 ***
+cos2:context   -0.423191   0.011297  -37.46  < 2e-16 ***
+context:sin3   -0.258784   0.010734  -24.11  < 2e-16 ***
+context:cos3    0.107907   0.011066    9.75  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Zero-inflation model:
+              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  -36.80860    8.87254  -4.149 3.35e-05 ***
+sin1          34.33829    8.50887   4.036 5.45e-05 ***
+cos1          11.09979    3.02778   3.666 0.000246 ***
+context       23.32983    8.93745   2.610 0.009045 ** 
+temp          -2.36991    0.50723  -4.672 2.98e-06 ***
+hum           -0.03159    0.52466  -0.060 0.951983    
+badweather    -0.41083    0.43708  -0.940 0.347247    
+yr             0.57803    0.15647   3.694 0.000221 ***
+sin1:context -23.48004    8.58385  -2.735 0.006231 ** 
+cos1:context  -2.48393    3.13482  -0.792 0.428146    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

@@ -1,0 +1,2 @@
+"model","rows","logLik","AIC","convergence","pdHess","gradient","max_coef","max_se","elapsed","warnings"
+"varying_dispersion",15720,-54905.4490872419,109898.898174484,0,TRUE,0.0698635023146359,40.5537005230468,11.9649069929125,159.66,""

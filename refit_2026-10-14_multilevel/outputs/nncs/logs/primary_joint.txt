@@ -1,0 +1,35 @@
+2026-10-14 23:45:20 START primary_joint 
+2026-10-14 23:48:34 RETRY BFGS
+2026-10-14 23:51:50
+DONE
+           model  sample family     n      AIC      BIC    logLik    df
+          <char>  <char> <char> <int>    <num>    <num>     <num> <int>
+1: primary_joint primary   ZINB  6849 19481.75 19638.88 -9717.876    23
+   convergence pd_hessian max_gradient acceptable optimizer elapsed_seconds
+         <int>     <lgcl>        <num>     <lgcl>    <char>           <num>
+1:           0       TRUE    0.0468352      FALSE      BFGS          389.02
+    error
+   <char>
+1:       
+nlminb NA/NaN function evaluation
+nlminb Model convergence problem; non-positive-definite Hessian matrix. See vignette('troubleshooting')
+nlminb Model convergence problem; false convergence (8). See vignette('troubleshooting'), help('diagnose')
+
+
+2026-10-15 00:10:24 START OR RESUME primary_joint 
+2026-10-15 00:10:28
+DONE
+           model  sample family     n      AIC      BIC    logLik    df
+          <char>  <char> <char> <int>    <num>    <num>     <num> <int>
+1: primary_joint primary   ZINB  6849 19481.75 19638.88 -9717.876    23
+   convergence pd_hessian max_gradient max_newton_step_se newton_decrement
+         <int>     <lgcl>        <num>              <num>            <num>
+1:           0       TRUE    0.0468352        0.002169531      0.002938038
+   acceptable optimizer elapsed_seconds  error
+       <lgcl>    <char>           <num> <char>
+1:       TRUE      BFGS            2.97       
+nlminb NA/NaN function evaluation
+nlminb Model convergence problem; non-positive-definite Hessian matrix. See vignette('troubleshooting')
+nlminb Model convergence problem; false convergence (8). See vignette('troubleshooting'), help('diagnose')
+
+

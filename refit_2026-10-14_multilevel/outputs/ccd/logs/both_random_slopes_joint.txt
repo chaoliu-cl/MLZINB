@@ -1,0 +1,15 @@
+2026-10-15 00:10:18 START OR RESUME both_random_slopes_joint 
+2026-10-15 00:11:50
+DONE
+                      model  sample family     n    AIC      BIC    logLik
+                     <char>  <char> <char> <int>  <num>    <num>     <num>
+1: both_random_slopes_joint primary   ZINB 13179 108415 108617.2 -54180.52
+      df convergence pd_hessian max_gradient max_newton_step_se
+   <int>       <int>     <lgcl>        <num>              <num>
+1:    27           0       TRUE   0.03343391       0.0005971645
+   newton_decrement acceptable optimizer elapsed_seconds  error
+              <num>     <lgcl>    <char>           <num> <char>
+1:      0.001274116       TRUE    nlminb           91.25       
+
+
+

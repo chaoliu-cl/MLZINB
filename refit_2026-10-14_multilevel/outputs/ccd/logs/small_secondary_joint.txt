@@ -1,0 +1,15 @@
+2026-10-15 00:05:43 START OR RESUME small_secondary_joint 
+2026-10-15 00:06:59
+DONE
+                   model sample family     n      AIC      BIC    logLik    df
+                  <char> <char> <char> <int>    <num>    <num>     <num> <int>
+1: small_secondary_joint  small   ZINB 13179 108666.2 108853.4 -54308.12    25
+   convergence pd_hessian max_gradient max_newton_step_se newton_decrement
+         <int>     <lgcl>        <num>              <num>            <num>
+1:           0       TRUE   0.01060293       0.0003247773     0.0009089882
+   acceptable optimizer elapsed_seconds  error
+       <lgcl>    <char>           <num> <char>
+1:       TRUE    nlminb           75.22       
+
+
+

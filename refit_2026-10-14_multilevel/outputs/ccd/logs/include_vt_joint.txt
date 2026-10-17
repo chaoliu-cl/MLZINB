@@ -1,0 +1,17 @@
+2026-10-14 23:54:12 START include_vt_joint 
+2026-10-14 23:55:53 RETRY BFGS
+2026-10-15 00:02:37 START OR RESUME include_vt_joint 
+2026-10-15 00:04:06
+DONE
+              model     sample family     n      AIC    BIC    logLik    df
+             <char>     <char> <char> <int>    <num>  <num>     <num> <int>
+1: include_vt_joint include_vt   ZINB 13416 108644.4 108832 -54297.18    25
+   convergence pd_hessian max_gradient max_newton_step_se newton_decrement
+         <int>     <lgcl>        <num>              <num>            <num>
+1:           0       TRUE   0.02114545       0.0006390196      0.001304028
+   acceptable optimizer elapsed_seconds  error
+       <lgcl>    <char>           <num> <char>
+1:       TRUE    nlminb           88.11       
+
+
+

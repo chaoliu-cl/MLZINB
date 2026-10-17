@@ -1,0 +1,8 @@
+{
+  "sample": "discovery",
+  "groups": 305,
+  "logLik_reconstruction_error": -1.8189894035458565e-11,
+  "score_sum_max_error": 1.5944175714595592e-06,
+  "mode_max_difference": 0.0,
+  "inner_mode_max_gradient": 1.3633538742396922e-12
+}

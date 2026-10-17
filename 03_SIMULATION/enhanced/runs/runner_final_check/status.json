@@ -1,0 +1,16 @@
+{
+  "state": "complete",
+  "mode": "smoke",
+  "label": "runner_final_check",
+  "updated": "2026-10-16 15:13:16.317851",
+  "pid": 596,
+  "workers": 2,
+  "conditions": 1,
+  "replications_per_condition": 1,
+  "planned": 1,
+  "completed_checkpoints": 1,
+  "pipeline_errors_observed_this_session": 0,
+  "wall_seconds_this_session": 5.3707,
+  "estimated_seconds_remaining": null,
+  "last_batch": {}
+}

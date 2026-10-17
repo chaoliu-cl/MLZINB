@@ -1,0 +1,5 @@
+"test","statistic","p","method"
+"uniformity","0.020751994",2.63575722727295e-06,"Asymptotic one-sample Kolmogorov-Smirnov test"
+"dispersion","0.54597552",0,"DHARMa nonparametric dispersion test via sd of residuals fitted vs. simulated"
+"zero_inflation","1.0572923",0.016,"DHARMa zero-inflation test via comparison to expected zeros with simulation under H0 = fitted model"
+"day_aggregated_uniformity","0.063679389",0.00986277612385469,"Asymptotic one-sample Kolmogorov-Smirnov test"

@@ -1,0 +1,41 @@
+{
+    "state":  "superseded_by_verified_production",
+    "mode":  "smoke",
+    "label":  "smoke_development_02",
+    "updated":  "2026-10-16 14:59:25.778177",
+    "pid":  33276,
+    "workers":  2,
+    "conditions":  58,
+    "replications_per_condition":  1,
+    "planned":  58,
+    "completed_checkpoints":  5,
+    "pipeline_errors_observed_this_session":  0,
+    "wall_seconds_this_session":  165.79,
+    "estimated_seconds_remaining":  2238.1644,
+    "last_batch":  [
+                       {
+                           "condition_id":  1,
+                           "replication":  1,
+                           "status":  "completed",
+                           "seconds":  27.94
+                       },
+                       {
+                           "condition_id":  2,
+                           "replication":  1,
+                           "status":  "completed",
+                           "seconds":  106.08
+                       },
+                       {
+                           "condition_id":  3,
+                           "replication":  1,
+                           "status":  "completed",
+                           "seconds":  28.2
+                       },
+                       {
+                           "condition_id":  4,
+                           "replication":  1,
+                           "status":  "completed",
+                           "seconds":  104.67
+                       }
+                   ]
+}

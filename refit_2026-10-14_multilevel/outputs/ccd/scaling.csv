@@ -1,0 +1,13 @@
+sample,variable,basis,mean,sd
+primary,context,distinct eligible states,0.567099837508488,0.176475947901174
+primary,log_enrollment,eligible districts before missing outcome exclusion,7.01821302735761,1.55132820257767
+primary,log_schools,eligible districts before missing outcome exclusion,1.37149740416504,0.942800671141759
+include_vt,context,distinct eligible states,0.572404008567688,0.178531535452461
+include_vt,log_enrollment,eligible districts before missing outcome exclusion,6.9902509284102,1.55702580905861
+include_vt,log_schools,eligible districts before missing outcome exclusion,1.35037240603354,0.949208057104824
+type1,context,distinct eligible states,0.564958008754546,0.177043211526095
+type1,log_enrollment,eligible districts before missing outcome exclusion,7.01935086350419,1.54575550041636
+type1,log_schools,eligible districts before missing outcome exclusion,1.37475455542881,0.933934286656316
+small,context,distinct eligible states,0.249231953945754,0.233419664611194
+small,log_enrollment,eligible districts before missing outcome exclusion,7.01821302735761,1.55132820257767
+small,log_schools,eligible districts before missing outcome exclusion,1.37149740416504,0.942800671141759

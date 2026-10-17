@@ -1,0 +1,15 @@
+2026-10-15 00:02:40 START OR RESUME type1_joint 
+2026-10-15 00:03:52
+DONE
+         model sample family     n    AIC      BIC    logLik    df convergence
+        <char> <char> <char> <int>  <num>    <num>     <num> <int>       <int>
+1: type1_joint  type1   ZINB 12949 106865 107036.8 -53409.51    23           0
+   pd_hessian max_gradient max_newton_step_se newton_decrement acceptable
+       <lgcl>        <num>              <num>            <num>     <lgcl>
+1:       TRUE   0.07242372       0.0005108909       0.00140309       TRUE
+   optimizer elapsed_seconds  error
+      <char>           <num> <char>
+1:    nlminb            70.7       
+
+
+

@@ -1,0 +1,9 @@
+"model","component","Wald","df","p"
+"second_inflation_harmonic","count",2569.31594775337,4,0
+"second_inflation_harmonic","inflation",70.0850167053825,4,2.17794545085263e-14
+"temperature_context","count",2285.1779353318,4,0
+"temperature_context","inflation",47.8823615280816,2,4.00384543833597e-11
+"all_released_days","count",2739.53794484829,4,0
+"all_released_days","inflation",55.8729085467247,2,7.36804153063914e-13
+"BFGS","count",2575.95315529199,4,0
+"BFGS","inflation",48.3529810958162,2,3.1643430756815e-11

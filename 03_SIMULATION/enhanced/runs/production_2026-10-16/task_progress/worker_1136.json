@@ -1,0 +1,9 @@
+{
+  "pid": 1136,
+  "condition_id": 21,
+  "replication": 16,
+  "model": "ZI_random_only",
+  "stage": "fitting",
+  "valid": null,
+  "updated": "2026-10-16 23:58:06.952644"
+}

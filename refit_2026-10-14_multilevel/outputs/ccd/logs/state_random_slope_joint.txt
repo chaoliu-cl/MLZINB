@@ -1,0 +1,15 @@
+2026-10-15 00:04:06 START OR RESUME state_random_slope_joint 
+2026-10-15 00:05:43
+DONE
+                      model  sample family     n      AIC      BIC    logLik
+                     <char>  <char> <char> <int>    <num>    <num>     <num>
+1: state_random_slope_joint primary   ZINB 13179 108414.9 108609.5 -54181.44
+      df convergence pd_hessian max_gradient max_newton_step_se
+   <int>       <int>     <lgcl>        <num>              <num>
+1:    26           0       TRUE   0.03604326        0.000627474
+   newton_decrement acceptable optimizer elapsed_seconds  error
+              <num>     <lgcl>    <char>           <num> <char>
+1:      0.001435412       TRUE    nlminb           96.17       
+
+
+

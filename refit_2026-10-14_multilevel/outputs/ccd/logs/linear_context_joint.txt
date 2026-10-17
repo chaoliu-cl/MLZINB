@@ -1,0 +1,15 @@
+2026-10-15 00:03:52 START OR RESUME linear_context_joint 
+2026-10-15 00:05:03
+DONE
+                  model  sample family     n      AIC      BIC    logLik    df
+                 <char>  <char> <char> <int>    <num>    <num>     <num> <int>
+1: linear_context_joint primary   ZINB 13179 108616.1 108788.3 -54285.06    23
+   convergence pd_hessian max_gradient max_newton_step_se newton_decrement
+         <int>     <lgcl>        <num>              <num>            <num>
+1:           0       TRUE   0.04276672        0.001970184      0.002261996
+   acceptable optimizer elapsed_seconds  error
+       <lgcl>    <char>           <num> <char>
+1:       TRUE    nlminb           69.84       
+
+
+

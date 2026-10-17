@@ -1,0 +1,49 @@
+ Family: nbinom2  ( log )
+Formula:          
+y ~ x_w + x_b0 + context + sin1 + cos1 + sin2 + cos2 + factor(mnth) +  
+    temp + I(temp^2) + hum + windspeed + badweather + (1 | group) +  
+    x_b0:context + x_w:context
+Data: d
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  58372.8   58570.7  -29158.4   58316.8      8617 
+
+Random effects:
+
+Conditional model:
+ Groups Name        Variance Std.Dev.
+ group  (Intercept) 0.09676  0.3111  
+Number of obs: 8645, groups:  group, 365
+
+Dispersion parameter for nbinom2 family (): 5.71 
+
+Conditional model:
+                Estimate Std. Error z value Pr(>|z|)    
+(Intercept)     0.617346   0.096419    6.40 1.53e-10 ***
+x_w            -0.105125   0.033502   -3.14  0.00170 ** 
+x_b0           -6.091519   2.540543   -2.40  0.01650 *  
+context        -0.752226   0.038260  -19.66  < 2e-16 ***
+sin1           -0.978537   0.011963  -81.80  < 2e-16 ***
+cos1           -1.117443   0.017368  -64.34  < 2e-16 ***
+sin2           -0.380461   0.008783  -43.32  < 2e-16 ***
+cos2            0.285079   0.013232   21.55  < 2e-16 ***
+factor(mnth)2   0.277090   0.091848    3.02  0.00255 ** 
+factor(mnth)3   0.827999   0.090731    9.13  < 2e-16 ***
+factor(mnth)4   1.120947   0.099358   11.28  < 2e-16 ***
+factor(mnth)5   1.406305   0.106243   13.24  < 2e-16 ***
+factor(mnth)6   1.321095   0.113586   11.63  < 2e-16 ***
+factor(mnth)7   1.408956   0.118522   11.89  < 2e-16 ***
+factor(mnth)8   1.307421   0.114957   11.37  < 2e-16 ***
+factor(mnth)9   1.224888   0.110596   11.08  < 2e-16 ***
+factor(mnth)10  1.189740   0.099130   12.00  < 2e-16 ***
+factor(mnth)11  0.835822   0.095777    8.73  < 2e-16 ***
+factor(mnth)12  0.580101   0.091056    6.37 1.88e-10 ***
+temp            6.868333   0.316961   21.67  < 2e-16 ***
+I(temp^2)      -4.884607   0.278054  -17.57  < 2e-16 ***
+hum            -0.809326   0.065409  -12.37  < 2e-16 ***
+windspeed      -0.086386   0.062822   -1.38  0.16910    
+badweather     -0.389629   0.026898  -14.49  < 2e-16 ***
+x_b0:context    5.944744   2.855773    2.08  0.03737 *  
+x_w:context    -0.605715   0.025720  -23.55  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

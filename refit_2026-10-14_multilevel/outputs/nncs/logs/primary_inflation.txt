@@ -1,0 +1,21 @@
+2026-10-15 00:02:05 START OR RESUME primary_inflation 
+2026-10-15 00:04:44 RETRY BFGS
+2026-10-15 00:10:21 START OR RESUME primary_inflation 
+2026-10-15 00:23:12 RETRY nlminb 
+2026-10-15 00:25:29
+DONE
+               model  sample family     n   AIC   BIC logLik    df convergence
+              <char>  <char> <char> <int> <num> <num>  <num> <int>       <int>
+1: primary_inflation primary   ZINB  6849    NA    NA     NA    22           0
+   pd_hessian max_gradient max_newton_step_se newton_decrement acceptable
+       <lgcl>        <num>              <num>            <num>     <lgcl>
+1:      FALSE      1942641                Inf              Inf      FALSE
+   optimizer elapsed_seconds  error
+      <char>           <num> <char>
+1:      BFGS          907.73       
+BFGS Model convergence problem; non-positive-definite Hessian matrix. See vignette('troubleshooting')
+nlminb NA/NaN function evaluation
+nlminb Model convergence problem; non-positive-definite Hessian matrix. See vignette('troubleshooting')
+nlminb Model convergence problem; false convergence (8). See vignette('troubleshooting'), help('diagnose')
+
+

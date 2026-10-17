@@ -1,0 +1,105 @@
+ Family: nbinom2  ( log )
+Formula:          
+y ~ factor(hr) + context + factor(mnth) + yr + temp + I(temp^2) +  
+    hum + windspeed + badweather + (1 | group) + factor(hr):context
+Zero inflation:     
+~sin1 + cos1 + context + temp + hum + badweather + yr + sin1:context + 
+    cos1:context
+Data: pp[[3]]
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+ 108421.3  109011.3  -54133.6  108267.3     15643 
+
+Random effects:
+
+Conditional model:
+ Groups Name        Variance Std.Dev.
+ group  (Intercept) 0.098    0.313   
+Number of obs: 15720, groups:  group, 655
+
+Dispersion parameter for nbinom2 family (): 10.1 
+
+Conditional model:
+                      Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           0.044396   0.083935    0.53  0.59685    
+factor(hr)1          -0.242734   0.042201   -5.75 8.83e-09 ***
+factor(hr)2          -0.399363   0.043161   -9.25  < 2e-16 ***
+factor(hr)3          -0.887232   0.046624  -19.03  < 2e-16 ***
+factor(hr)4          -1.921246   0.059962  -32.04  < 2e-16 ***
+factor(hr)5          -2.196064   0.064849  -33.86  < 2e-16 ***
+factor(hr)6          -1.365908   0.051887  -26.32  < 2e-16 ***
+factor(hr)7          -0.530583   0.044316  -11.97  < 2e-16 ***
+factor(hr)8           0.265510   0.040399    6.57 4.96e-11 ***
+factor(hr)9           0.984970   0.038487   25.59  < 2e-16 ***
+factor(hr)10          1.484040   0.037809   39.25  < 2e-16 ***
+factor(hr)11          1.737137   0.037701   46.08  < 2e-16 ***
+factor(hr)12          1.880284   0.037887   49.63  < 2e-16 ***
+factor(hr)13          1.918651   0.038160   50.28  < 2e-16 ***
+factor(hr)14          1.922447   0.038343   50.14  < 2e-16 ***
+factor(hr)15          1.905118   0.038388   49.63  < 2e-16 ***
+factor(hr)16          1.819073   0.038390   47.38  < 2e-16 ***
+factor(hr)17          1.662920   0.038297   43.42  < 2e-16 ***
+factor(hr)18          1.347977   0.038241   35.25  < 2e-16 ***
+factor(hr)19          1.155151   0.038197   30.24  < 2e-16 ***
+factor(hr)20          0.870133   0.038539   22.58  < 2e-16 ***
+factor(hr)21          0.634591   0.038936   16.30  < 2e-16 ***
+factor(hr)22          0.418597   0.039493   10.60  < 2e-16 ***
+factor(hr)23          0.108891   0.040581    2.68  0.00729 ** 
+context              -0.873621   0.046256  -18.89  < 2e-16 ***
+factor(mnth)2         0.024735   0.076843    0.32  0.74753    
+factor(mnth)3         0.770860   0.073520   10.49  < 2e-16 ***
+factor(mnth)4         0.868236   0.073242   11.85  < 2e-16 ***
+factor(mnth)5         1.075400   0.076990   13.97  < 2e-16 ***
+factor(mnth)6         1.031501   0.079957   12.90  < 2e-16 ***
+factor(mnth)7         1.096063   0.082974   13.21  < 2e-16 ***
+factor(mnth)8         1.069201   0.081521   13.12  < 2e-16 ***
+factor(mnth)9         0.975849   0.078904   12.37  < 2e-16 ***
+factor(mnth)10        0.936716   0.073802   12.69  < 2e-16 ***
+factor(mnth)11        0.651831   0.070815    9.20  < 2e-16 ***
+factor(mnth)12        0.365918   0.070209    5.21 1.87e-07 ***
+yr                    0.353010   0.025801   13.68  < 2e-16 ***
+temp                  6.879323   0.216151   31.83  < 2e-16 ***
+I(temp^2)            -4.831403   0.180510  -26.77  < 2e-16 ***
+hum                  -0.561773   0.042415  -13.24  < 2e-16 ***
+windspeed            -0.063494   0.038008   -1.67  0.09481 .  
+badweather           -0.404818   0.016754  -24.16  < 2e-16 ***
+factor(hr)1:context  -0.316912   0.057211   -5.54 3.04e-08 ***
+factor(hr)2:context  -0.601010   0.063280   -9.50  < 2e-16 ***
+factor(hr)3:context  -0.837305   0.084054   -9.96  < 2e-16 ***
+factor(hr)4:context  -0.001653   0.096506   -0.02  0.98633    
+factor(hr)5:context   0.611235   0.083281    7.34 2.15e-13 ***
+factor(hr)6:context   0.990392   0.063670   15.56  < 2e-16 ***
+factor(hr)7:context   1.175492   0.054681   21.50  < 2e-16 ***
+factor(hr)8:context   0.957336   0.050838   18.83  < 2e-16 ***
+factor(hr)9:context   0.237432   0.049176    4.83 1.38e-06 ***
+factor(hr)10:context -0.101359   0.048288   -2.10  0.03581 *  
+factor(hr)11:context -0.231504   0.047857   -4.84 1.32e-06 ***
+factor(hr)12:context -0.310217   0.047675   -6.51 7.67e-11 ***
+factor(hr)13:context -0.349879   0.047669   -7.34 2.14e-13 ***
+factor(hr)14:context -0.302251   0.047599   -6.35 2.15e-10 ***
+factor(hr)15:context -0.287639   0.047592   -6.04 1.51e-09 ***
+factor(hr)16:context -0.145466   0.047571   -3.06  0.00223 ** 
+factor(hr)17:context  0.202366   0.047535    4.26 2.07e-05 ***
+factor(hr)18:context  0.397887   0.047769    8.33  < 2e-16 ***
+factor(hr)19:context  0.393370   0.048177    8.17 3.21e-16 ***
+factor(hr)20:context  0.436645   0.048751    8.96  < 2e-16 ***
+factor(hr)21:context  0.495659   0.049404   10.03  < 2e-16 ***
+factor(hr)22:context  0.506041   0.050151   10.09  < 2e-16 ***
+factor(hr)23:context  0.489911   0.051543    9.50  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Zero-inflation model:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept)  -5.75580    0.83627  -6.883 5.87e-12 ***
+sin1         -0.06302    0.79518  -0.079    0.937    
+cos1          0.88568    0.62962   1.407    0.160    
+context      -5.79402    1.42336  -4.071 4.69e-05 ***
+temp         -2.99132    0.73840  -4.051 5.10e-05 ***
+hum           0.56254    0.71594   0.786    0.432    
+badweather    0.41593    0.38180   1.089    0.276    
+yr            1.21437    0.27998   4.337 1.44e-05 ***
+sin1:context  7.60695    1.38981   5.473 4.42e-08 ***
+cos1:context  6.76754    1.14386   5.916 3.29e-09 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

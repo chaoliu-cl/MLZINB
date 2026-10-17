@@ -1,0 +1,16 @@
+2026-10-15 00:17:18 START OR RESUME all_covariates_decomposed_joint 
+2026-10-15 00:21:09 RETRY nlminb 
+2026-10-15 00:22:09
+DONE
+                             model  sample family     n      AIC      BIC
+                            <char>  <char> <char> <int>    <num>    <num>
+1: all_covariates_decomposed_joint primary   ZINB  6849 19475.24 19673.36
+      logLik    df convergence pd_hessian max_gradient max_newton_step_se
+       <num> <int>       <int>     <lgcl>        <num>              <num>
+1: -9708.618    29           0       TRUE  0.007690038        0.000109306
+   newton_decrement acceptable optimizer elapsed_seconds  error
+              <num>     <lgcl>    <char>           <num> <char>
+1:     0.0003061436       TRUE    nlminb          289.77       
+
+
+

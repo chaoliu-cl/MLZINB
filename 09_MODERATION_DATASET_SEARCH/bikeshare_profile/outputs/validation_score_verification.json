@@ -1,0 +1,8 @@
+{
+  "sample": "validation",
+  "groups": 350,
+  "logLik_reconstruction_error": 1.6007106751203537e-10,
+  "score_sum_max_error": 1.202883563771167e-05,
+  "mode_max_difference": 1.194361276546374e-11,
+  "inner_mode_max_gradient": 1.9393753269980607e-09
+}

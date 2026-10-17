@@ -1,0 +1,15 @@
+2026-10-15 00:01:20 START OR RESUME primary_inflation 
+2026-10-15 00:02:40
+DONE
+               model  sample family     n      AIC      BIC    logLik    df
+              <char>  <char> <char> <int>    <num>    <num>     <num> <int>
+1: primary_inflation primary   ZINB 13179 108706.9 108886.6 -54329.47    24
+   convergence pd_hessian max_gradient max_newton_step_se newton_decrement
+         <int>     <lgcl>        <num>              <num>            <num>
+1:           0       TRUE    0.0116112       0.0008524198      0.001164729
+   acceptable optimizer elapsed_seconds  error
+       <lgcl>    <char>           <num> <char>
+1:       TRUE    nlminb           79.16       
+
+
+

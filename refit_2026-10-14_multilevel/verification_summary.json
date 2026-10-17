@@ -1,0 +1,14 @@
+{
+  "ccd": {
+    "models": 12,
+    "numerically_acceptable": 12,
+    "primary_records": 13179,
+    "valid_likelihood_ratio_comparisons": 4
+  },
+  "nncs": {
+    "models": 11,
+    "numerically_acceptable": 9,
+    "primary_records": 6849,
+    "valid_likelihood_ratio_comparisons": 1
+  }
+}

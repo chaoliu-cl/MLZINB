@@ -1,0 +1,2 @@
+suite,scenario,effect,J,n,b_count,b_zi,zi_intercept,count_intercept,phi,sd_count,sd_zi,rho,slope_sd,context_binary,context_probability,unequal,sparse,informative,composition_rho,exposure,varying_dispersion,heavy_tail,hurdle,cluster_ar,observation_ar,count_family,label,condition_id,truth_class,generating_class,component_defined,estimand_status,misspecified
+core,opposite,0.3,40,30,0.3,-0.3,-0.55,0.7,1.4,0.35,0.5,0,0,FALSE,0.5,FALSE,FALSE,FALSE,0,FALSE,FALSE,FALSE,FALSE,0,0,nbinom2,opposite_e0.30_J40_n30,21,both,both,TRUE,working_ZINB_parameters,FALSE

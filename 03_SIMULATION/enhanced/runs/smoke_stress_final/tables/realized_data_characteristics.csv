@@ -1,0 +1,2 @@
+condition_id,N,J,min_n,max_n,zero_rate,structural_fraction,mean,variance,mean_pi,sd_xw,context_support,within_mean_error,all_zero_cluster_fraction,context_mean,context_sd,context_min,context_max,label,suite,scenario,truth_class,estimand_status,misspecified,completed_reps,pipeline_errors,planned_reps,remaining_reps
+44,1200,40,30,30,0.588333333333333,0.44,1.64333333333333,11.5173867111482,0.454319480237809,0.959978718493958,2,3.51859745043962e-17,0,0.55,0.503831473655779,0,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0

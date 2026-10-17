@@ -1,0 +1,98 @@
+[
+  {
+    "candidate": "rwm",
+    "file": "rwm\\source\\data.csv",
+    "url": "https://vincentarelbundock.github.io/Rdatasets/csv/COUNT/rwm.csv",
+    "downloaded_utc": "2026-10-16T03:08:39.788747+00:00",
+    "sha256": "ba21539c1d75d800ed7ff53c48d911f79c2a3ab129c06c065eccb31f17d70244",
+    "bytes": 710575
+  },
+  {
+    "candidate": "rwm",
+    "file": "rwm\\source\\documentation.html",
+    "url": "https://vincentarelbundock.github.io/Rdatasets/doc/COUNT/rwm.html",
+    "downloaded_utc": "2026-10-16T03:08:40.413857+00:00",
+    "sha256": "8ab3860c446d5a51b3955cdf183c962a9af5852808d353ece0348a71ad42e565",
+    "bytes": 2483
+  },
+  {
+    "candidate": "rwm",
+    "file": "rwm\\source\\Health.Rd",
+    "url": "https://raw.githubusercontent.com/cran/Rchoice/master/man/Health.Rd",
+    "downloaded_utc": "2026-10-16T03:08:40.914884+00:00",
+    "sha256": "dee7c815ced85d330129583f3abb7f253a3ad1086ac94b01009de6ac7d6692d8",
+    "bytes": 2431
+  },
+  {
+    "candidate": "rwm",
+    "file": "rwm\\source\\COUNT_DESCRIPTION",
+    "url": "https://raw.githubusercontent.com/cran/COUNT/master/DESCRIPTION",
+    "downloaded_utc": "2026-10-16T03:08:41.730849+00:00",
+    "sha256": "d13ffa4eddc7f13e87e40a047452c64fac4c4add9bfacc37608add5635ce5dc0",
+    "bytes": 958
+  },
+  {
+    "candidate": "countymurders",
+    "file": "countymurders\\source\\data.csv",
+    "url": "https://vincentarelbundock.github.io/Rdatasets/csv/wooldridge/countymurders.csv",
+    "downloaded_utc": "2026-10-16T03:08:42.914684+00:00",
+    "sha256": "c3506e1a348b9f17d42020de5d3a39d6a9b012056492e570ca8ac7dd58240aa6",
+    "bytes": 4204671
+  },
+  {
+    "candidate": "countymurders",
+    "file": "countymurders\\source\\documentation.html",
+    "url": "https://vincentarelbundock.github.io/Rdatasets/doc/wooldridge/countymurders.html",
+    "downloaded_utc": "2026-10-16T03:08:43.897831+00:00",
+    "sha256": "e64b5f900139ee71f1f6c5d3e291af500a8a5fa1c4a732cfae43421fce505565",
+    "bytes": 3276
+  },
+  {
+    "candidate": "rwm",
+    "file": "rwm\\source\\Health.rda",
+    "url": "https://raw.githubusercontent.com/cran/Rchoice/master/data/Health.rda",
+    "sha256": "6ca66fb2639dbedac691d43c168245f1b3eac1392ab28f40e1abbddcfa5d1c11",
+    "bytes": 153852,
+    "downloaded_utc": "2026-10-16T03:10:00.271748+00:00"
+  },
+  {
+    "candidate": "rwm",
+    "url": "http://qed.econ.queensu.ca/jae/2003-v18.4/riphahn-wambach-million/readme.rwm.txt",
+    "file": "rwm\\source\\readme.rwm.txt",
+    "sha256": "281076b62cd4f685f9f04732b5fef2c7f2e028d6ad5e3e821202294a27989687",
+    "bytes": 3184,
+    "downloaded_utc": "2026-10-16T03:10:59.750393+00:00"
+  },
+  {
+    "candidate": "rwm",
+    "url": "http://qed.econ.queensu.ca/jae/2003-v18.4/riphahn-wambach-million/rwm-data.zip",
+    "file": "rwm\\source\\rwm-data.zip",
+    "sha256": "a7ce0f03df7a9bf887417c903e2761767ba9cc76d3012c4c89572ec9903e7672",
+    "bytes": 308044,
+    "downloaded_utc": "2026-10-16T03:11:00.129178+00:00"
+  },
+  {
+    "candidate": "bikeshare",
+    "url": "https://archive.ics.uci.edu/api/dataset?id=275",
+    "file": "bikeshare\\source\\uci_metadata.json",
+    "sha256": "ddae1c6bc628001a5c48ea53892f62e30dbbd6c4931ba00915adfdc520f9227b",
+    "bytes": 6935,
+    "downloaded_utc": "2026-10-16T03:17:58.015965+00:00"
+  },
+  {
+    "candidate": "bikeshare",
+    "url": "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip",
+    "file": "bikeshare\\source\\bike_sharing.zip",
+    "sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+    "bytes": 279992,
+    "downloaded_utc": "2026-10-16T03:17:58.987206+00:00"
+  },
+  {
+    "candidate": "bikeshare",
+    "file": "bikeshare\\source\\uci_page.html",
+    "url": "https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset",
+    "sha256": "8028396ec8f7d9f76d8f8c95e03d91baffee440afea74b4e204107564f3f724f",
+    "bytes": 157041,
+    "downloaded_utc": "2026-10-16T03:22:05.717482+00:00"
+  }
+]

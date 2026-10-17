@@ -1,0 +1,15 @@
+2026-10-15 00:11:30 START OR RESUME metro_dependence_joint 
+2026-10-15 00:12:56
+DONE
+                    model  sample family     n      AIC      BIC    logLik
+                   <char>  <char> <char> <int>    <num>    <num>     <num>
+1: metro_dependence_joint primary   ZINB  6849 19476.75 19640.72 -9714.376
+      df convergence pd_hessian max_gradient max_newton_step_se
+   <int>       <int>     <lgcl>        <num>              <num>
+1:    24           0       TRUE    0.0198215       0.0006950477
+   newton_decrement acceptable optimizer elapsed_seconds  error
+              <num>     <lgcl>    <char>           <num> <char>
+1:      0.001872522       TRUE      BFGS           85.32       
+
+
+

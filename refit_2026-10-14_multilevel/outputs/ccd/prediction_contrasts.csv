@@ -1,0 +1,4 @@
+context_z,conditional_count_ratio,modeled_zero_class_odds_ratio,observed_expected_count_ratio,contrast,random_effects
+-1,0.527562328732859,3.23838041979989,0.482869364937114,"rural versus non-rural; city=0, independent district, median enrollment and schools",set to zero; not integrated population averages
+0,0.736085718808461,2.14781075083357,0.693302639343492,"rural versus non-rural; city=0, independent district, median enrollment and schools",set to zero; not integrated population averages
+1,1.02702970990207,1.42450559334883,0.997604695699624,"rural versus non-rural; city=0, independent district, median enrollment and schools",set to zero; not integrated population averages

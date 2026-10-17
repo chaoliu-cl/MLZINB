@@ -1,0 +1,5 @@
+2026-10-16 15:11:41 Start smoke: 1 planned paired datasets; 0 existing; 2 workers. 
+2026-10-16 15:12:05 1/1 checkpoints; last conditions 21; median task 22.3s; pipeline errors this session 0. 
+2026-10-16 15:12:10 Finished aggregation: complete; 1 checkpoints; 0 pipeline errors. 
+2026-10-16 15:13:11 Start smoke: 1 planned paired datasets; 1 existing; 2 workers. 
+2026-10-16 15:13:16 Finished aggregation: complete; 1 checkpoints; 0 pipeline errors. 

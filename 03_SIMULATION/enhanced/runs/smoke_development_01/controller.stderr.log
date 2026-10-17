@@ -1,0 +1,7 @@
+Warning messages:
+1: package 'glmmTMB' was built under R version 4.4.3 
+2: package 'data.table' was built under R version 4.4.3 
+Error in checkForRemoteErrors(lapply(cl, recvResult)) : 
+  2 nodes produced errors; first error: unused argument (envir = .GlobalEnv)
+Calls: tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+Execution halted

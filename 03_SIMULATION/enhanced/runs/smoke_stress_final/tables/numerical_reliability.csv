@@ -1,0 +1,10 @@
+condition_id,model,attempted,valid_fits,failure_rate,failure_mcse,failure_mc_low,failure_mc_high,retry_fraction,boundary_sd_fraction,median_newton_se,max_newton_se,label,suite,scenario,truth_class,estimand_status,misspecified,completed_reps,pipeline_errors,planned_reps,remaining_reps
+44,additive,1,1,0,0,0,0.793450685622763,0,0,0.000579222850340087,0.000579222850340087,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,count,1,1,0,0,0,0.793450685622763,0,0,0.000185369750955975,0.000185369750955975,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,inflation,1,1,0,0,0,0.793450685622763,0,0,0.000484826939212662,0.000484826939212662,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,joint,1,1,0,0,0,0.793450685622763,0,0,0.000387414878585115,0.000387414878585115,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,NB_additive,1,1,0,0,0,0.793450685622763,0,0,0.000506502390666715,0.000506502390666715,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,NB_count,1,1,0,0,0,0.793450685622763,0,0,0.00026336025434292,0.00026336025434292,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,ZI_intercept,1,1,0,0,0,0.793450685622763,0,0,0.000425355779684416,0.000425355779684416,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,ZI_random_only,1,0,1,0,0.206549314377237,1,1,0,,-Inf,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,ZI_fixed_effects_joint,1,1,0,0,0,0.793450685622763,0,0,0.000449718250113541,0.000449718250113541,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0

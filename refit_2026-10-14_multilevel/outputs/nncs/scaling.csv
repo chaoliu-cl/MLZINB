@@ -1,0 +1,25 @@
+sample,variable,basis,mean,sd
+primary,context,distinct cities,0.465392536191793,0.0382346371638765
+primary,between_disadvantage,distinct cities,-0.0882276439344732,0.475995124165339
+primary,within_disadvantage,pooled within-city deviations; no additional mean subtraction,1.59304188634225e-17,0.746063677563851
+primary,minority,tract-city records,48.2391567273431,33.4459982042731
+primary,minority_between,distinct cities,41.0066077908922,21.5864661531576
+primary,minority_within,pooled within-city deviations,6.29806694134789e-17,26.9319337179555
+primary,instability,tract-city records,-0.0158677804248451,0.871893862894954
+primary,instability_between,distinct cities,-0.0879169832883098,0.379988891773831
+primary,instability_within,pooled within-city deviations,-4.07838263554246e-19,0.825377131012068
+primary,vacancy,tract-city records,13.0101833434188,9.66914090262884
+primary,vacancy_between,distinct cities,11.0472437640486,5.37001346788862
+primary,vacancy_within,pooled within-city deviations,-6.95534768895733e-17,7.88737021368618
+whole,context,distinct cities,0.465392536191793,0.0382346371638765
+whole,between_disadvantage,distinct cities,-0.034264979472026,0.484683259231065
+whole,within_disadvantage,pooled within-city deviations; no additional mean subtraction,4.66459970390078e-17,0.749881759771571
+whole,minority,tract-city records,50.6505088741461,33.6755583998154
+whole,minority_between,distinct cities,42.4194606566959,22.0778600583925
+whole,minority_within,pooled within-city deviations,-7.41281988211457e-16,27.2512276868511
+whole,instability,tract-city records,0.0266959576955411,0.853415568037571
+whole,instability_between,distinct cities,-0.00935240237491736,0.401170179560739
+whole,instability_within,pooled within-city deviations,5.96654766984036e-18,0.803439959381997
+whole,vacancy,tract-city records,13.7573245129854,9.82075491822957
+whole,vacancy_between,distinct cities,11.4720621781607,5.62077986647
+whole,vacancy_within,pooled within-city deviations,-6.30416577491887e-17,7.97215724265702

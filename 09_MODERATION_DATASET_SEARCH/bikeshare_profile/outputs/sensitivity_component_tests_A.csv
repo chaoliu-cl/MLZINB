@@ -1,0 +1,5 @@
+"model","component","Wald","df","p"
+"random_slope","count",2840.62849047058,4,0
+"random_slope","inflation",58.9782065074392,2,1.55971475503045e-13
+"inflation_intercept","count",2575.94200125701,4,0
+"inflation_intercept","inflation",48.3541800896862,2,3.16244663021979e-11

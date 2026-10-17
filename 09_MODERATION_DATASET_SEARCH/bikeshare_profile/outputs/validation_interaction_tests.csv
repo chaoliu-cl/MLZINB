@@ -1,0 +1,6 @@
+"sample","comparison","LR","df","p"
+"validation","additive -> joint",1290.66629626389,6,1.13568706876896e-275
+"validation","additive -> count",1235.51096530734,4,3.18949391681744e-266
+"validation","additive -> inflation",77.5587730532134,2,1.43988039958105e-17
+"validation","count -> joint",55.1553309565497,2,1.05480470669337e-12
+"validation","inflation -> joint",1213.10752321067,4,2.29420948656563e-261

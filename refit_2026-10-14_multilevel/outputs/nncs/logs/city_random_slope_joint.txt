@@ -1,0 +1,16 @@
+2026-10-15 00:14:18 START OR RESUME city_random_slope_joint 
+2026-10-15 00:15:13 RETRY nlminb 
+2026-10-15 00:15:52
+DONE
+                     model  sample family     n      AIC      BIC    logLik
+                    <char>  <char> <char> <int>    <num>    <num>     <num>
+1: city_random_slope_joint primary   ZINB  6849 19441.82 19605.79 -9696.911
+      df convergence pd_hessian max_gradient max_newton_step_se
+   <int>       <int>     <lgcl>        <num>              <num>
+1:    24           0       TRUE  0.008376188       0.0003223282
+   newton_decrement acceptable optimizer elapsed_seconds  error
+              <num>     <lgcl>    <char>           <num> <char>
+1:     0.0006652706       TRUE    nlminb           93.44       
+
+
+

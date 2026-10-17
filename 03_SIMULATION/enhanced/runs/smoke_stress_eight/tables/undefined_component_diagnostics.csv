@@ -1,0 +1,3 @@
+condition_id,model,component,method,n,median_abs_estimate,median_se,nominal_rejection_fraction,label,suite,scenario,truth_class,estimand_status,misspecified,completed_reps,pipeline_errors,planned_reps,remaining_reps
+46,undecomposed_joint,count,model,1,0.329097869155434,0.0490352172180915,1,composition_correlation,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+46,undecomposed_joint,inflation,model,1,0.150037554681418,0.0872510937006728,0,composition_correlation,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0

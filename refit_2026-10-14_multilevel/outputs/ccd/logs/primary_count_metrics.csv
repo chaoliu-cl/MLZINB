@@ -1,0 +1,2 @@
+model,sample,family,n,AIC,BIC,logLik,df,convergence,pd_hessian,max_gradient,max_newton_step_se,newton_decrement,acceptable,optimizer,elapsed_seconds,error
+primary_count,primary,ZINB,13179,108638.534927747,108818.208046131,-54295.2674638737,24,0,TRUE,0.0131131577170969,0.000357971075087797,0.000840001385408736,TRUE,nlminb,70.86,""

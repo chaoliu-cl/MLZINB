@@ -1,0 +1,2 @@
+condition_id,n,rate,mcse,mc_low,mc_high,label,suite,scenario,truth_class,estimand_status,misspecified,completed_reps,pipeline_errors,planned_reps,remaining_reps
+21,1,1,0,0.206549314377237,1,opposite_e0.30_J40_n30,core,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0

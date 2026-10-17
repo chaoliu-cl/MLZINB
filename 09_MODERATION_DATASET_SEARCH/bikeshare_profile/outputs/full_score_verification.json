@@ -1,0 +1,8 @@
+{
+  "sample": "full",
+  "groups": 655,
+  "logLik_reconstruction_error": 4.220055416226387e-10,
+  "score_sum_max_error": 1.9398490121330788e-05,
+  "mode_max_difference": 0.0,
+  "inner_mode_max_gradient": 1.4663825709249068e-12
+}

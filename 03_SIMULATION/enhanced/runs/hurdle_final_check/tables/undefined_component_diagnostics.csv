@@ -1,0 +1,12 @@
+condition_id,model,component,method,n,median_abs_estimate,median_se,nominal_rejection_fraction,label,suite,scenario,truth_class,estimand_status,misspecified,completed_reps,pipeline_errors,planned_reps,remaining_reps
+55,count,count,model,1,0.363424205540129,0.0378976048335615,1,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,inflation,inflation,model,1,0.327420348105864,0.160088520142655,1,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,NB_count,count,model,1,0.459542527120613,0.0412323297882009,1,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,ZI_fixed_effects_joint,count,model,1,0.358805305627059,0.0391815989437342,1,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,ZI_fixed_effects_joint,inflation,model,1,0.101722593091115,0.136330261579437,0,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,joint,count,model,1,0.35578293648739,0.0387695176133526,1,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,joint,inflation,model,1,0.107168886499217,0.141785823415574,0,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,joint,count,cluster,1,0.35578293648739,0.0314639530214245,1,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,joint,inflation,cluster,1,0.107168886499217,0.116432788747109,0,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,joint,count,HAC,1,0.35578293648739,0.0318339613375211,1,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0
+55,joint,inflation,HAC,1,0.107168886499217,0.0908804487138228,0,hurdle_truth,stress,opposite,undefined_hurdle,observable_only_hurdle,TRUE,1,0,1,0

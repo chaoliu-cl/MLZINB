@@ -1,0 +1,12 @@
+condition_id,workflow,decision,N,rate_among_completed,label,suite,scenario,truth_class,estimand_status,misspecified,completed_reps,pipeline_errors,planned_reps,remaining_reps
+44,gated_LRT_Holm,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,gated_LRT_unadjusted,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,conditional_LRT_Holm,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,conditional_LRT_unadjusted,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,AIC_four,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,naive_count_only,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,separate_unadjusted,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,AIC_all_available,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,gated_Wald_model_Holm,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,gated_Wald_cluster_Holm,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0
+44,gated_Wald_HAC_Holm,count,1,1,binary_context,stress,opposite,both,working_ZINB_parameters,FALSE,1,0,1,0

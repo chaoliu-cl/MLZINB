@@ -1,0 +1,4 @@
+2026-10-16 15:06:06 Start smoke: 8 planned paired datasets; 0 existing; 2 workers. 
+2026-10-16 15:08:38 4/8 checkpoints; last conditions 46,49,50,52; median task 39.2s; pipeline errors this session 0. 
+2026-10-16 15:09:27 8/8 checkpoints; last conditions 53,54,56,58; median task 22.8s; pipeline errors this session 0. 
+2026-10-16 15:09:33 STOP: Faceting variables must have at least one value. 

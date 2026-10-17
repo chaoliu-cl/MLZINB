@@ -1,0 +1,16 @@
+{
+  "state": "interrupted_or_error",
+  "mode": "smoke",
+  "label": "smoke_development_01",
+  "updated": "2026-10-16 14:56:04.674607",
+  "pid": 41120,
+  "workers": 2,
+  "conditions": 58,
+  "replications_per_condition": 1,
+  "planned": 58,
+  "completed_checkpoints": 0,
+  "pipeline_errors_observed_this_session": 0,
+  "wall_seconds_this_session": 0.55,
+  "estimated_seconds_remaining": null,
+  "last_batch": {}
+}

@@ -1,0 +1,1 @@
+condition_id,model,component,method,n,true,bias,bias_mcse,rmse,rmse_mcse,empirical_sd,mean_model_se,se_ratio,coverage,coverage_mcse,coverage_mc_low,coverage_mc_high,rejection,rejection_mcse,rejection_mc_low,rejection_mc_high,wrong_sign,wrong_sign_mcse,label,suite,scenario,truth_class,estimand_status,misspecified,completed_reps,pipeline_errors,planned_reps,remaining_reps

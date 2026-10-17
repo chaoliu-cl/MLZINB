@@ -1,0 +1,12 @@
+starting worker pid=46056 on localhost:11236 at 15:06:05.134
+starting worker pid=36644 on localhost:11236 at 15:06:05.140
+Warning messages:
+1: package 'glmmTMB' was built under R version 4.4.3 
+2: package 'data.table' was built under R version 4.4.3 
+3: the 'nobars' function has moved to the reformulas package. Please update your imports, or ask an upstream package maintainer to do so.
+This warning is displayed once per session. 
+Warning messages:
+1: package 'glmmTMB' was built under R version 4.4.3 
+2: package 'data.table' was built under R version 4.4.3 
+3: the 'nobars' function has moved to the reformulas package. Please update your imports, or ask an upstream package maintainer to do so.
+This warning is displayed once per session. 

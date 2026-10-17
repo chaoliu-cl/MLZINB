@@ -1,0 +1,6 @@
+"sample","comparison","LR","df","p"
+"discovery","additive -> joint",1349.29726248618,6,2.30268740660644e-288
+"discovery","additive -> count",1305.8816893883,4,1.76576377942942e-281
+"discovery","additive -> inflation",63.7629505121513,2,1.42577574184421e-14
+"discovery","count -> joint",43.4155730978746,2,3.73618254779788e-10
+"discovery","inflation -> joint",1285.53431197403,4,4.55511999542302e-277

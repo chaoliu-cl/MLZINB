@@ -1,0 +1,17 @@
+2026-10-14 23:52:13 START primary_count 
+2026-10-14 23:53:37 RETRY BFGS
+2026-10-15 00:01:12 START OR RESUME primary_count 
+2026-10-15 00:02:24
+DONE
+           model  sample family     n      AIC      BIC    logLik    df
+          <char>  <char> <char> <int>    <num>    <num>     <num> <int>
+1: primary_count primary   ZINB 13179 108638.5 108818.2 -54295.27    24
+   convergence pd_hessian max_gradient max_newton_step_se newton_decrement
+         <int>     <lgcl>        <num>              <num>            <num>
+1:           0       TRUE   0.01311316       0.0003579711     0.0008400014
+   acceptable optimizer elapsed_seconds  error
+       <lgcl>    <char>           <num> <char>
+1:       TRUE    nlminb           70.86       
+
+
+

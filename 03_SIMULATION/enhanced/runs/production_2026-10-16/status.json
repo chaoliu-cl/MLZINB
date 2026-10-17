@@ -1,0 +1,365 @@
+{
+  "state": "running",
+  "mode": "full",
+  "label": "production_2026-10-16",
+  "updated": "2026-10-16 23:34:39.669825",
+  "pid": 31112,
+  "workers": 2,
+  "conditions": 58,
+  "replications_per_condition": 500,
+  "planned": 29000,
+  "completed_checkpoints": 870,
+  "pipeline_errors_observed_this_session": 0,
+  "wall_seconds_this_session": 30078.9293,
+  "estimated_seconds_remaining": 972552.0477,
+  "last_batch": [
+    {
+      "condition_id": 1,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 24.15
+    },
+    {
+      "condition_id": 2,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 90.63
+    },
+    {
+      "condition_id": 3,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 24.05
+    },
+    {
+      "condition_id": 4,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 87.56
+    },
+    {
+      "condition_id": 5,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 194.77
+    },
+    {
+      "condition_id": 6,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 1174.04
+    },
+    {
+      "condition_id": 7,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 24.99
+    },
+    {
+      "condition_id": 8,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 100.92
+    },
+    {
+      "condition_id": 9,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 25.04
+    },
+    {
+      "condition_id": 10,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 99.35
+    },
+    {
+      "condition_id": 11,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 26.98
+    },
+    {
+      "condition_id": 12,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 90.43
+    },
+    {
+      "condition_id": 13,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 69.3
+    },
+    {
+      "condition_id": 14,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 95.25
+    },
+    {
+      "condition_id": 15,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 26.92
+    },
+    {
+      "condition_id": 16,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 92.82
+    },
+    {
+      "condition_id": 17,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 23.9
+    },
+    {
+      "condition_id": 18,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 87
+    },
+    {
+      "condition_id": 19,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 26.09
+    },
+    {
+      "condition_id": 20,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 99.28
+    },
+    {
+      "condition_id": 21,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 22.65
+    },
+    {
+      "condition_id": 22,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 92.42
+    },
+    {
+      "condition_id": 23,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 12.96
+    },
+    {
+      "condition_id": 24,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 13.26
+    },
+    {
+      "condition_id": 25,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 47.17
+    },
+    {
+      "condition_id": 26,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 50.28
+    },
+    {
+      "condition_id": 27,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 108.08
+    },
+    {
+      "condition_id": 28,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 22.01
+    },
+    {
+      "condition_id": 29,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 27.36
+    },
+    {
+      "condition_id": 30,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 22.75
+    },
+    {
+      "condition_id": 31,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 29.77
+    },
+    {
+      "condition_id": 32,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 151.31
+    },
+    {
+      "condition_id": 33,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 20.75
+    },
+    {
+      "condition_id": 34,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 31
+    },
+    {
+      "condition_id": 35,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 364.46
+    },
+    {
+      "condition_id": 36,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 73.94
+    },
+    {
+      "condition_id": 37,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 25.05
+    },
+    {
+      "condition_id": 38,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 23.82
+    },
+    {
+      "condition_id": 39,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 23.55
+    },
+    {
+      "condition_id": 40,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 24.61
+    },
+    {
+      "condition_id": 41,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 25.16
+    },
+    {
+      "condition_id": 42,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 23.96
+    },
+    {
+      "condition_id": 43,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 23.75
+    },
+    {
+      "condition_id": 44,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 23.66
+    },
+    {
+      "condition_id": 45,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 48.01
+    },
+    {
+      "condition_id": 46,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 120.84
+    },
+    {
+      "condition_id": 47,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 45.21
+    },
+    {
+      "condition_id": 48,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 67.38
+    },
+    {
+      "condition_id": 49,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 35.58
+    },
+    {
+      "condition_id": 50,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 39.77
+    },
+    {
+      "condition_id": 51,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 22.09
+    },
+    {
+      "condition_id": 52,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 24.1
+    },
+    {
+      "condition_id": 53,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 26.58
+    },
+    {
+      "condition_id": 54,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 25.13
+    },
+    {
+      "condition_id": 55,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 27.24
+    },
+    {
+      "condition_id": 56,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 71.32
+    },
+    {
+      "condition_id": 57,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 25.14
+    },
+    {
+      "condition_id": 58,
+      "replication": 15,
+      "status": "completed",
+      "seconds": 71.68
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+"model","rows","logLik","AIC","convergence","pdHess","gradient","max_coef","max_se","elapsed","warnings"
+"random_slope",15720,-54980.0880157142,110042.176031428,0,TRUE,0.0481921696617404,27.7984843988097,5.67010850883693,138.58,""
+"inflation_intercept",15720,NA,NA,0,FALSE,0.0449127110259777,31.0867110120884,NA,256.83,"Model convergence problem; non-positive-definite Hessian matrix. See vignette('troubleshooting')"

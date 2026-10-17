@@ -1,0 +1,18 @@
+2026-10-14 23:55:21 START fixed_inflation_joint 
+2026-10-14 23:56:01 RETRY BFGS
+2026-10-15 00:10:31 START OR RESUME fixed_inflation_joint 
+2026-10-15 00:11:00 RETRY nlminb 
+2026-10-15 00:11:30
+DONE
+                   model  sample family     n      AIC      BIC    logLik    df
+                  <char>  <char> <char> <int>    <num>    <num>     <num> <int>
+1: fixed_inflation_joint primary   ZINB  6849 19484.78 19635.08 -9720.389    22
+   convergence pd_hessian max_gradient max_newton_step_se newton_decrement
+         <int>     <lgcl>        <num>              <num>            <num>
+1:           0       TRUE    0.0123684       0.0002377161     0.0004999938
+   acceptable optimizer elapsed_seconds  error
+       <lgcl>    <char>           <num> <char>
+1:       TRUE    nlminb           57.94       
+
+
+

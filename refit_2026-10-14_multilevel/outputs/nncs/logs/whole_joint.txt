@@ -1,0 +1,16 @@
+2026-10-15 00:12:56 START OR RESUME whole_joint 
+2026-10-15 00:13:36 RETRY nlminb 
+2026-10-15 00:14:18
+DONE
+         model sample family     n      AIC      BIC    logLik    df
+        <char> <char> <char> <int>    <num>    <num>     <num> <int>
+1: whole_joint  whole   ZINB  5838 17704.37 17844.49 -8831.187    21
+   convergence pd_hessian max_gradient max_newton_step_se newton_decrement
+         <int>     <lgcl>        <num>              <num>            <num>
+1:           0       TRUE   0.01912529       0.0002275459     0.0006327962
+   acceptable optimizer elapsed_seconds  error
+       <lgcl>    <char>           <num> <char>
+1:       TRUE    nlminb           72.31       
+
+
+

@@ -1,0 +1,11 @@
+Publication ML-ZINB simulation run
+
+Run label: publication_pilot
+Conditions: 22
+Replications per condition: 4
+Requested model fits: 616
+
+Truth cases: null moderation; additive contextual effects only; NB truth; inflation-only; count-only; dual same-sign; dual opposite-sign.
+Compared models: NB; fixed-inflation ZINB; random-inflation-only ZINB; additive ZINB; count-cross ZINB; inflation-cross ZINB; both-cross ZINB.
+
+IMPORTANT: This is a pilot run. Rates, coverage, and Monte Carlo standard errors are not publication estimates. Rerun with MLZINB_PUB_NREP=500 or larger.

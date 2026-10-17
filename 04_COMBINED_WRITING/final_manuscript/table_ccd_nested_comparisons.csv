@@ -1,0 +1,5 @@
+comparison,LR,df,p
+Add count interaction to additive model,70.169,1,<0.001
+Add inflation interaction to additive model,19.855,1,<0.001
+Add inflation interaction to count-interaction model,11.547,1,<0.001
+Add count interaction to inflation-interaction model,61.860,1,<0.001

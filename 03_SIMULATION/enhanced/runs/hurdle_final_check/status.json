@@ -1,0 +1,16 @@
+{
+  "state": "complete",
+  "mode": "smoke",
+  "label": "hurdle_final_check",
+  "updated": "2026-10-16 15:15:19.162363",
+  "pid": 46724,
+  "workers": 1,
+  "conditions": 1,
+  "replications_per_condition": 1,
+  "planned": 1,
+  "completed_checkpoints": 1,
+  "pipeline_errors_observed_this_session": 0,
+  "wall_seconds_this_session": 36.9968,
+  "estimated_seconds_remaining": 0,
+  "last_batch": {}
+}

@@ -1,0 +1,10 @@
+{
+  "version": "2026-10-16-v1",
+  "base_seed": 16102026,
+  "mode": "smoke",
+  "reps": 1,
+  "R_version": "R version 4.4.2 (2024-10-31 ucrt)",
+  "condition_ids": [46, 49, 50, 52, 53, 54, 56, 58],
+  "hashes": ["a03399447fcd12aa6b1888e66ba3844f", "abf5fc1e8382e494bda70a8b31a2b8cf", "e792d2d885511ab174917ea6c7c87a69", "6ca03c1a57dc7b0a39f8ab86eee2fed5", "8dd93fb2df20a25b134b4eeade5989d3"],
+  "package_versions": ["1.1.14", "1.9.19", "3.1.1", "1.17.8"]
+}

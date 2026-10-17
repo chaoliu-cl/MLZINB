@@ -1,0 +1,8 @@
+truth_case,effect_sizes,small_design,large_design,purpose
+Null moderation,0,40 clusters x 30,80 clusters x 60,False-positive and unnecessary-complexity assessment
+Additive context only,0,40 clusters x 30,80 clusters x 60,Distinguish contextual main effects from contextual moderation
+Negative-binomial truth,0,40 clusters x 30,80 clusters x 60,Assess consequences of unsupported zero inflation
+Inflation-only moderation,0.15 and 0.30,40 clusters x 30,80 clusters x 60,Add Health-like inflation-side moderation
+Count-only moderation,0.15 and 0.30,40 clusters x 30,80 clusters x 60,Count-side moderation without inflation moderation
+Dual same-sign moderation,0.15 and 0.30,40 clusters x 30,80 clusters x 60,Interactions in both components with equal coefficient signs
+Dual opposite-sign moderation,0.15 and 0.30,40 clusters x 30,80 clusters x 60,Interactions in both components with opposite coefficient signs

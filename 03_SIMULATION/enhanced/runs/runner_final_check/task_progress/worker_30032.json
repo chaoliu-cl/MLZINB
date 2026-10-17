@@ -1,0 +1,9 @@
+{
+  "pid": 30032,
+  "condition_id": 21,
+  "replication": 1,
+  "model": "all",
+  "stage": "checkpointed",
+  "valid": true,
+  "updated": "2026-10-16 15:12:05.014015"
+}

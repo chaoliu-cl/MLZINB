@@ -1,0 +1,138 @@
+check,passed,detail
+core_and_stress_grid,TRUE,58
+noncolliding_seed_blocks,TRUE,condition seed blocks disjoint for reps 1..100000; independent reference offset exceeds all blocks
+DGP_1,TRUE,1200 rows; 40 context levels
+truth_finite_1,TRUE,""
+DGP_2,TRUE,4800 rows; 80 context levels
+truth_finite_2,TRUE,""
+DGP_3,TRUE,1200 rows; 40 context levels
+truth_finite_3,TRUE,""
+DGP_4,TRUE,4800 rows; 80 context levels
+truth_finite_4,TRUE,""
+DGP_5,TRUE,1200 rows; 40 context levels
+truth_finite_5,TRUE,""
+DGP_6,TRUE,4800 rows; 80 context levels
+truth_finite_6,TRUE,""
+DGP_7,TRUE,1200 rows; 40 context levels
+truth_finite_7,TRUE,""
+DGP_8,TRUE,4800 rows; 80 context levels
+truth_finite_8,TRUE,""
+DGP_9,TRUE,1200 rows; 40 context levels
+truth_finite_9,TRUE,""
+DGP_10,TRUE,4800 rows; 80 context levels
+truth_finite_10,TRUE,""
+DGP_11,TRUE,1200 rows; 40 context levels
+truth_finite_11,TRUE,""
+DGP_12,TRUE,4800 rows; 80 context levels
+truth_finite_12,TRUE,""
+DGP_13,TRUE,1200 rows; 40 context levels
+truth_finite_13,TRUE,""
+DGP_14,TRUE,4800 rows; 80 context levels
+truth_finite_14,TRUE,""
+DGP_15,TRUE,1200 rows; 40 context levels
+truth_finite_15,TRUE,""
+DGP_16,TRUE,4800 rows; 80 context levels
+truth_finite_16,TRUE,""
+DGP_17,TRUE,1200 rows; 40 context levels
+truth_finite_17,TRUE,""
+DGP_18,TRUE,4800 rows; 80 context levels
+truth_finite_18,TRUE,""
+DGP_19,TRUE,1200 rows; 40 context levels
+truth_finite_19,TRUE,""
+DGP_20,TRUE,4800 rows; 80 context levels
+truth_finite_20,TRUE,""
+DGP_21,TRUE,1200 rows; 40 context levels
+truth_finite_21,TRUE,""
+DGP_22,TRUE,4800 rows; 80 context levels
+truth_finite_22,TRUE,""
+DGP_23,TRUE,600 rows; 20 context levels
+truth_finite_23,TRUE,""
+DGP_24,TRUE,600 rows; 20 context levels
+truth_finite_24,TRUE,""
+DGP_25,TRUE,2400 rows; 40 context levels
+truth_finite_25,TRUE,""
+DGP_26,TRUE,2400 rows; 80 context levels
+truth_finite_26,TRUE,""
+DGP_27,TRUE,4800 rows; 160 context levels
+truth_finite_27,TRUE,""
+DGP_28,TRUE,1252 rows; 40 context levels
+truth_finite_28,TRUE,""
+DGP_29,TRUE,1420 rows; 40 context levels
+truth_finite_29,TRUE,""
+DGP_30,TRUE,909 rows; 40 context levels
+truth_finite_30,TRUE,""
+DGP_31,TRUE,1149 rows; 40 context levels
+truth_finite_31,TRUE,""
+DGP_32,TRUE,1200 rows; 40 context levels
+truth_finite_32,TRUE,""
+DGP_33,TRUE,1200 rows; 40 context levels
+truth_finite_33,TRUE,""
+DGP_34,TRUE,1200 rows; 40 context levels
+truth_finite_34,TRUE,""
+DGP_35,TRUE,1200 rows; 40 context levels
+truth_finite_35,TRUE,""
+DGP_36,TRUE,1200 rows; 40 context levels
+truth_finite_36,TRUE,""
+DGP_37,TRUE,1200 rows; 40 context levels
+truth_finite_37,TRUE,""
+DGP_38,TRUE,1200 rows; 40 context levels
+truth_finite_38,TRUE,""
+DGP_39,TRUE,1200 rows; 40 context levels
+truth_finite_39,TRUE,""
+DGP_40,TRUE,1200 rows; 40 context levels
+truth_finite_40,TRUE,""
+DGP_41,TRUE,1200 rows; 40 context levels
+truth_finite_41,TRUE,""
+DGP_42,TRUE,1200 rows; 40 context levels
+truth_finite_42,TRUE,""
+DGP_43,TRUE,1200 rows; 40 context levels
+truth_finite_43,TRUE,""
+DGP_44,TRUE,1200 rows; 2 context levels
+truth_finite_44,TRUE,""
+DGP_45,TRUE,1200 rows; 2 context levels
+truth_finite_45,TRUE,""
+DGP_46,TRUE,1200 rows; 40 context levels
+truth_finite_46,TRUE,""
+DGP_47,TRUE,1200 rows; 40 context levels
+truth_finite_47,TRUE,""
+DGP_48,TRUE,1200 rows; 40 context levels
+truth_finite_48,TRUE,""
+DGP_49,TRUE,1200 rows; 40 context levels
+truth_finite_49,TRUE,""
+DGP_50,TRUE,1200 rows; 40 context levels
+truth_finite_50,TRUE,""
+DGP_51,TRUE,1200 rows; 40 context levels
+truth_finite_51,TRUE,""
+DGP_52,TRUE,1200 rows; 40 context levels
+truth_finite_52,TRUE,""
+DGP_53,TRUE,1200 rows; 40 context levels
+truth_finite_53,TRUE,""
+DGP_54,TRUE,1200 rows; 40 context levels
+truth_finite_54,TRUE,""
+DGP_55,TRUE,1200 rows; 40 context levels
+truth_finite_55,TRUE,""
+DGP_56,TRUE,1200 rows; 40 context levels
+truth_finite_56,TRUE,""
+DGP_57,TRUE,1200 rows; 40 context levels
+truth_finite_57,TRUE,""
+DGP_58,TRUE,1200 rows; 40 context levels
+truth_finite_58,TRUE,""
+zero_RE_mixture_identity,TRUE,4.44089209850063e-15
+quadrature_13_vs_41,TRUE,1.08175253199505e-08
+finite_moment_heavy_tail_quadrature,TRUE,1.98516758587175e-11
+one_level_context_no_resampling,TRUE,""
+component_classification,TRUE,""
+zero_event_MC_interval,TRUE,0.00762434046155224
+benchmark_joint_numerical,TRUE,26.11
+full_cluster_score_identity,TRUE,5.89659206878812e-11
+likelihood_comparisons_same_sample,TRUE,""
+prediction_engine_vs_package_new_groups,TRUE,3.33066907387547e-16
+delta_gradient_independent,TRUE,1.99035437020711e-08
+random_slope_model_numerical,TRUE,""
+random_slope_theta_order,TRUE,""
+random_slope_prediction_finite,TRUE,""
+DGP_repeatability,TRUE,""
+reference_independent,TRUE,""
+checkpoint_resume_unchanged,TRUE,""
+report_pipeline_and_denominators,TRUE,""
+report_four_prediction_targets,TRUE,""

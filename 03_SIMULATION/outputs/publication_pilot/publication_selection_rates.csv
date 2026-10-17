@@ -1,0 +1,37 @@
+"scenario","effect","design","true_model","best_model","selection_rate"
+"Additive context only",0,"40 clusters x 30","ZINB_additive","ZINB_additive",1
+"Additive context only",0,"80 clusters x 60","ZINB_additive","ZINB_additive",0.75
+"Additive context only",0,"80 clusters x 60","ZINB_additive","ZINB_zi_cross",0.25
+"Count only",0.15,"40 clusters x 30","ZINB_count_cross","ZINB_both_cross",0.25
+"Count only",0.15,"40 clusters x 30","ZINB_count_cross","ZINB_count_cross",0.75
+"Count only",0.15,"80 clusters x 60","ZINB_count_cross","ZINB_count_cross",1
+"Count only",0.3,"40 clusters x 30","ZINB_count_cross","ZINB_both_cross",0.25
+"Count only",0.3,"40 clusters x 30","ZINB_count_cross","ZINB_count_cross",0.75
+"Count only",0.3,"80 clusters x 60","ZINB_count_cross","ZINB_count_cross",1
+"Dual opposite sign",0.15,"40 clusters x 30","ZINB_both_cross","ZINB_both_cross",0.25
+"Dual opposite sign",0.15,"40 clusters x 30","ZINB_both_cross","ZINB_count_cross",0.75
+"Dual opposite sign",0.15,"80 clusters x 60","ZINB_both_cross","ZINB_both_cross",0.75
+"Dual opposite sign",0.15,"80 clusters x 60","ZINB_both_cross","ZINB_count_cross",0.25
+"Dual opposite sign",0.3,"40 clusters x 30","ZINB_both_cross","ZINB_both_cross",0.75
+"Dual opposite sign",0.3,"40 clusters x 30","ZINB_both_cross","ZINB_count_cross",0.25
+"Dual opposite sign",0.3,"80 clusters x 60","ZINB_both_cross","ZINB_both_cross",1
+"Dual same sign",0.15,"40 clusters x 30","ZINB_both_cross","ZINB_both_cross",0.25
+"Dual same sign",0.15,"40 clusters x 30","ZINB_both_cross","ZINB_count_cross",0.75
+"Dual same sign",0.15,"80 clusters x 60","ZINB_both_cross","ZINB_both_cross",1
+"Dual same sign",0.3,"40 clusters x 30","ZINB_both_cross","ZINB_both_cross",0.75
+"Dual same sign",0.3,"40 clusters x 30","ZINB_both_cross","ZINB_count_cross",0.25
+"Dual same sign",0.3,"80 clusters x 60","ZINB_both_cross","ZINB_both_cross",1
+"Inflation only",0.15,"40 clusters x 30","ZINB_zi_cross","ZINB_additive",0.5
+"Inflation only",0.15,"40 clusters x 30","ZINB_zi_cross","ZINB_zi_cross",0.5
+"Inflation only",0.15,"80 clusters x 60","ZINB_zi_cross","ZINB_additive",0.25
+"Inflation only",0.15,"80 clusters x 60","ZINB_zi_cross","ZINB_both_cross",0.25
+"Inflation only",0.15,"80 clusters x 60","ZINB_zi_cross","ZINB_zi_cross",0.5
+"Inflation only",0.3,"40 clusters x 30","ZINB_zi_cross","ZINB_zi_cross",1
+"Inflation only",0.3,"80 clusters x 60","ZINB_zi_cross","ZINB_zi_cross",1
+"NB truth",0,"40 clusters x 30","NB","NB",0.75
+"NB truth",0,"40 clusters x 30","NB","ZINB_fixed_inflation",0.25
+"NB truth",0,"80 clusters x 60","NB","NB",1
+"Null moderation",0,"40 clusters x 30","ZINB_additive","ZINB_additive",0.5
+"Null moderation",0,"40 clusters x 30","ZINB_additive","ZINB_count_cross",0.5
+"Null moderation",0,"80 clusters x 60","ZINB_additive","ZINB_additive",0.5
+"Null moderation",0,"80 clusters x 60","ZINB_additive","ZINB_count_cross",0.5

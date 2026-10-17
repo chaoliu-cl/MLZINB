@@ -1,0 +1,28 @@
+2026-10-14 23:51:50 START primary_nb 
+2026-10-14 23:52:19 RETRY BFGS
+2026-10-14 23:55:21
+DONE
+        model  sample family     n     AIC      BIC  logLik    df convergence
+       <char>  <char> <char> <int>   <num>    <num>   <num> <int>       <int>
+1: primary_nb primary     NB  6849 19528.8 19610.78 -9752.4    12           0
+   pd_hessian max_gradient acceptable optimizer elapsed_seconds  error
+       <lgcl>        <num>     <lgcl>    <char>           <num> <char>
+1:       TRUE  0.007485469       TRUE      BFGS          211.28       
+
+
+
+2026-10-15 00:10:29 START OR RESUME primary_nb 
+2026-10-15 00:10:31
+DONE
+        model  sample family     n     AIC      BIC  logLik    df convergence
+       <char>  <char> <char> <int>   <num>    <num>   <num> <int>       <int>
+1: primary_nb primary     NB  6849 19528.8 19610.78 -9752.4    12           0
+   pd_hessian max_gradient max_newton_step_se newton_decrement acceptable
+       <lgcl>        <num>              <num>            <num>     <lgcl>
+1:       TRUE  0.007485469       0.0002002558     0.0004162423       TRUE
+   optimizer elapsed_seconds  error
+      <char>           <num> <char>
+1:      BFGS             1.5       
+
+
+

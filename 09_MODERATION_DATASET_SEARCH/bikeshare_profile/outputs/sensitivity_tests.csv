@@ -1,0 +1,10 @@
+model,Wald,df,p,interpretable
+random_slope,2908.47783140281,6,0.0,True
+inflation_intercept,,6,,False
+flexible_hour_joint,4069.34897299413,25,0.0,True
+third_count_harmonic,3698.1345454641,8,0.0,True
+second_inflation_harmonic,2655.54283803221,8,0.0,True
+temperature_context,2340.19308654341,6,0.0,True
+all_released_days,2809.0735182812,6,0.0,True
+BFGS,2633.50775737652,6,0.0,True
+varying_dispersion,2546.91401371058,6,0.0,True

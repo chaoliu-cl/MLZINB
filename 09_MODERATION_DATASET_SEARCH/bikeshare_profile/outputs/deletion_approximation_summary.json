@@ -1,0 +1,7 @@
+{
+  "exact_dates": 10,
+  "coefficients_per_date": 6,
+  "maximum_absolute_exact_shift_in_model_SE": 0.3804881065432163,
+  "maximum_absolute_approximation_error_in_model_SE": 0.01553659107980559,
+  "correlation_of_standardized_shifts": 0.9993882257265319
+}

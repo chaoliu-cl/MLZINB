@@ -1,0 +1,15 @@
+2026-10-15 00:05:03 START OR RESUME union_dependence_joint 
+2026-10-15 00:06:32
+DONE
+                    model  sample family     n      AIC      BIC    logLik
+                   <char>  <char> <char> <int>    <num>    <num>     <num>
+1: union_dependence_joint primary   ZINB 13179 108617.8 108812.4 -54282.89
+      df convergence pd_hessian max_gradient max_newton_step_se
+   <int>       <int>     <lgcl>        <num>              <num>
+1:    26           0       TRUE   0.03418017        0.001239623
+   newton_decrement acceptable optimizer elapsed_seconds  error
+              <num>     <lgcl>    <char>           <num> <char>
+1:      0.002321557       TRUE    nlminb           88.89       
+
+
+

@@ -1,0 +1,60 @@
+ Family: nbinom2  ( log )
+Formula:          
+y ~ x_w + x_b0 * context + sin1 + cos1 + sin2 + cos2 + factor(mnth) +  
+    temp + I(temp^2) + hum + windspeed + badweather + (1 | group)
+Zero inflation:     
+~x_w + x_b0 * context + sin1 + cos1 + temp + hum + badweather
+Data: d
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  64094.4   64356.2  -32010.2   64020.4      8697 
+
+Random effects:
+
+Conditional model:
+ Groups Name        Variance Std.Dev.
+ group  (Intercept) 0.09579  0.3095  
+Number of obs: 8734, groups:  group, 366
+
+Dispersion parameter for nbinom2 family (): 6.03 
+
+Conditional model:
+                Estimate Std. Error z value Pr(>|z|)
+(Intercept)      1.17644        NaN     NaN      NaN
+x_w             -0.42847        NaN     NaN      NaN
+x_b0           -16.00439        NaN     NaN      NaN
+context         -0.71548        NaN     NaN      NaN
+sin1            -1.04256        NaN     NaN      NaN
+cos1            -1.23871        NaN     NaN      NaN
+sin2            -0.36355        NaN     NaN      NaN
+cos2             0.28923        NaN     NaN      NaN
+factor(mnth)2   -0.06593        NaN     NaN      NaN
+factor(mnth)3    0.76139        NaN     NaN      NaN
+factor(mnth)4    0.80270        NaN     NaN      NaN
+factor(mnth)5    0.86913        NaN     NaN      NaN
+factor(mnth)6    0.80887        NaN     NaN      NaN
+factor(mnth)7    0.80231        NaN     NaN      NaN
+factor(mnth)8    0.86539        NaN     NaN      NaN
+factor(mnth)9    0.81806        NaN     NaN      NaN
+factor(mnth)10   0.78526        NaN     NaN      NaN
+factor(mnth)11   0.60429        NaN     NaN      NaN
+factor(mnth)12   0.28873        NaN     NaN      NaN
+temp             5.92721        NaN     NaN      NaN
+I(temp^2)       -3.69094        NaN     NaN      NaN
+hum             -0.42797        NaN     NaN      NaN
+windspeed       -0.06512        NaN     NaN      NaN
+badweather      -0.46610        NaN     NaN      NaN
+x_b0:context    15.44785        NaN     NaN      NaN
+
+Zero-inflation model:
+             Estimate Std. Error z value Pr(>|z|)
+(Intercept)  -24.7809        NaN     NaN      NaN
+x_w          -32.3782        NaN     NaN      NaN
+x_b0          37.6666        NaN     NaN      NaN
+context        2.2179        NaN     NaN      NaN
+sin1          12.3825        NaN     NaN      NaN
+cos1           9.6123        NaN     NaN      NaN
+temp          -3.3918        NaN     NaN      NaN
+hum            0.6691        NaN     NaN      NaN
+badweather    -0.2725        NaN     NaN      NaN
+x_b0:context -73.7338        NaN     NaN      NaN

@@ -1,0 +1,2 @@
+"sample","model","rows","groups","logLik","AIC","df","convergence","pdHess","max_abs_gradient","elapsed","warnings"
+"validation","additive",8734,366,-32010.1916576578,64094.3833153155,37,0,TRUE,0.00155816461687275,84.52,"failed to invert Hessian from numDeriv::jacobian(), falling back to internal vcov estimate"

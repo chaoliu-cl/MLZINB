@@ -1,0 +1,31 @@
+2026-10-14 23:45:14 START primary_additive 
+2026-10-14 23:46:50 RETRY BFGS
+2026-10-14 23:52:13
+DONE
+              model  sample family     n      AIC      BIC    logLik    df
+             <char>  <char> <char> <int>    <num>    <num>     <num> <int>
+1: primary_additive primary   ZINB 13179 108738.9 108911.1 -54346.45    23
+   convergence pd_hessian max_gradient acceptable optimizer elapsed_seconds
+         <int>     <lgcl>        <num>     <lgcl>    <char>           <num>
+1:           0       TRUE   0.02034633      FALSE    nlminb          418.12
+    error
+   <char>
+1:       
+
+
+
+2026-10-15 00:01:14 START OR RESUME primary_additive 
+2026-10-15 00:01:20
+DONE
+              model  sample family     n      AIC      BIC    logLik    df
+             <char>  <char> <char> <int>    <num>    <num>     <num> <int>
+1: primary_additive primary   ZINB 13179 108738.9 108911.1 -54346.45    23
+   convergence pd_hessian max_gradient max_newton_step_se newton_decrement
+         <int>     <lgcl>        <num>              <num>            <num>
+1:           0       TRUE   0.02034633       0.0004551427      0.001143196
+   acceptable optimizer elapsed_seconds  error
+       <lgcl>    <char>           <num> <char>
+1:       TRUE    nlminb            5.18       
+
+
+

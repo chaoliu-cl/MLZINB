@@ -1,0 +1,49 @@
+ Family: nbinom2  ( log )
+Formula:          
+y ~ sin1 + cos1 + sin2 + cos2 + context + factor(mnth) + temp +  
+    I(temp^2) + hum + windspeed + badweather + (1 | group) +  
+    sin1:context + cos1:context + sin2:context + cos2:context
+Data: d
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+  61661.9   61858.9  -30802.9   61605.9      8372 
+
+Random effects:
+
+Conditional model:
+ Groups Name        Variance Std.Dev.
+ group  (Intercept) 0.09381  0.3063  
+Number of obs: 8400, groups:  group, 350
+
+Dispersion parameter for nbinom2 family (): 6.76 
+
+Conditional model:
+               Estimate Std. Error z value Pr(>|z|)    
+(Intercept)     1.07398    0.10336   10.39  < 2e-16 ***
+sin1           -1.10552    0.01579  -69.99  < 2e-16 ***
+cos1           -1.12143    0.01352  -82.97  < 2e-16 ***
+sin2           -0.19670    0.01257  -15.65  < 2e-16 ***
+cos2            0.41602    0.01298   32.04  < 2e-16 ***
+context        -0.72273    0.03721  -19.42  < 2e-16 ***
+factor(mnth)2  -0.10589    0.09087   -1.17  0.24391    
+factor(mnth)3   0.69262    0.09042    7.66 1.85e-14 ***
+factor(mnth)4   0.72950    0.09257    7.88 3.25e-15 ***
+factor(mnth)5   0.81638    0.09865    8.28  < 2e-16 ***
+factor(mnth)6   0.75910    0.10175    7.46 8.61e-14 ***
+factor(mnth)7   0.74943    0.10716    6.99 2.68e-12 ***
+factor(mnth)8   0.80972    0.10476    7.73 1.08e-14 ***
+factor(mnth)9   0.76217    0.09939    7.67 1.75e-14 ***
+factor(mnth)10  0.76282    0.09416    8.10 5.45e-16 ***
+factor(mnth)11  0.58921    0.08812    6.69 2.28e-11 ***
+factor(mnth)12  0.25336    0.08756    2.89  0.00381 ** 
+temp            6.35224    0.31394   20.23  < 2e-16 ***
+I(temp^2)      -4.04626    0.26363  -15.35  < 2e-16 ***
+hum            -0.43417    0.06308   -6.88 5.87e-12 ***
+windspeed      -0.09568    0.05861   -1.63  0.10257    
+badweather     -0.47169    0.02556  -18.45  < 2e-16 ***
+sin1:context    0.03090    0.01687    1.83  0.06692 .  
+cos1:context    0.03615    0.01594    2.27  0.02336 *  
+sin2:context   -0.39626    0.01599  -24.78  < 2e-16 ***
+cos2:context   -0.39808    0.01580  -25.19  < 2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

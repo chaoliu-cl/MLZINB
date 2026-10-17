@@ -1,0 +1,11 @@
+{
+  "source_rows": 17379,
+  "daily_rows": 731,
+  "possible_nominal_24_hour_rows": 17544,
+  "absent_nominal_hours": 165,
+  "duplicate_keys": 0,
+  "missing_values": 0,
+  "daily_count_reconciliation": true,
+  "minimum_count": 0,
+  "maximum_count": 367
+}

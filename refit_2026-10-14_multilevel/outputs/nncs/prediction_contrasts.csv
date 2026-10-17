@@ -1,0 +1,4 @@
+context_z,conditional_count_ratio,modeled_zero_class_odds_ratio,observed_expected_count_ratio,contrast,random_effects
+-1,1.06404075109862,0.219595025359023,1.20508929521263,"one pooled within-city SD disadvantage contrast; city mean and controls centered, whole-tract flag",set to zero; not integrated population averages
+0,1.18626863257267,0.275123819538941,1.26344964764154,"one pooled within-city SD disadvantage contrast; city mean and controls centered, whole-tract flag",set to zero; not integrated population averages
+1,1.32253700544163,0.344694129358999,1.36346034023015,"one pooled within-city SD disadvantage contrast; city mean and controls centered, whole-tract flag",set to zero; not integrated population averages
