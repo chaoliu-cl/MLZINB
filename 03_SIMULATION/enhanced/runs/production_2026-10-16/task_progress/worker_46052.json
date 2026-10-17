@@ -1,9 +1,9 @@
 {
   "pid": 46052,
-  "condition_id": 17,
+  "condition_id": 18,
   "replication": 32,
-  "model": "inflation",
+  "model": "joint",
   "stage": "fitting",
   "valid": null,
-  "updated": "2026-10-17 09:07:17.222139"
+  "updated": "2026-10-17 09:08:08.58837"
 }
