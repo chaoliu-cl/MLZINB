@@ -1,9 +1,9 @@
 {
   "pid": 46052,
-  "condition_id": 6,
+  "condition_id": 54,
   "replication": 16,
-  "model": "ZI_fixed_effects_joint",
+  "model": "inflation",
   "stage": "fitting",
   "valid": null,
-  "updated": "2026-10-16 23:58:12.094866"
+  "updated": "2026-10-17 00:13:39.515481"
 }
